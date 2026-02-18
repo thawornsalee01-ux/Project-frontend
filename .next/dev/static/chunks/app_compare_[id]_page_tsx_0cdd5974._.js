@@ -8,8 +8,8 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ArrowPathIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowPathIcon$3e$__ = __turbopack_context__.i("[project]/node_modules/@heroicons/react/24/outline/esm/ArrowPathIcon.js [app-client] (ecmascript) <export default as ArrowPathIcon>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ExclamationTriangleIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExclamationTriangleIcon$3e$__ = __turbopack_context__.i("[project]/node_modules/@heroicons/react/24/outline/esm/ExclamationTriangleIcon.js [app-client] (ecmascript) <export default as ExclamationTriangleIcon>");
@@ -34,7 +34,9 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 ;
 ;
 ;
-const API_BASE = ("TURBOPACK compile-time value", "http://localhost:8001") ?? "/api/history";
+;
+const API_BASE = ("TURBOPACK compile-time value", "/api/history") ?? "/api/history";
+const API_BASE_CHAT = ("TURBOPACK compile-time value", "/api/chat") ?? "/api/chat";
 /* ================= HELPERS ================= */ function normalizeText(s) {
     return (s || "").toString().trim();
 }
@@ -62,7 +64,7 @@ function riskBadge(risk) {
         children: "HIGH"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 94,
+        lineNumber: 96,
         columnNumber: 12
     }, this);
     if (level === "MEDIUM") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -70,7 +72,7 @@ function riskBadge(risk) {
         children: "MEDIUM"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 96,
+        lineNumber: 98,
         columnNumber: 12
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -78,7 +80,7 @@ function riskBadge(risk) {
         children: "LOW"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 97,
+        lineNumber: 99,
         columnNumber: 10
     }, this);
 }
@@ -89,7 +91,7 @@ function changeTypeBadge(type) {
         children: "ADDED"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 103,
+        lineNumber: 105,
         columnNumber: 12
     }, this);
     if (type === "REMOVED") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -97,7 +99,7 @@ function changeTypeBadge(type) {
         children: "REMOVED"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 105,
+        lineNumber: 107,
         columnNumber: 12
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -105,7 +107,7 @@ function changeTypeBadge(type) {
         children: "MODIFIED"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 106,
+        lineNumber: 108,
         columnNumber: 10
     }, this);
 }
@@ -145,14 +147,14 @@ function CopyButton({ text, label = "คัดลอก", size = "md", variant =
                 className: "h-4 w-4"
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 153,
+                lineNumber: 155,
                 columnNumber: 7
             }, this),
             label
         ]
     }, void 0, true, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 147,
+        lineNumber: 149,
         columnNumber: 5
     }, this);
 }
@@ -190,7 +192,7 @@ _c = CopyButton;
             className: "h-4"
         }, index, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 193,
+            lineNumber: 195,
             columnNumber: 30
         }, this);
         const words = line.split(/(\s+)/);
@@ -205,7 +207,7 @@ _c = CopyButton;
                         children: word
                     }, wordIndex, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 204,
+                        lineNumber: 206,
                         columnNumber: 15
                     }, this);
                 }
@@ -213,7 +215,7 @@ _c = CopyButton;
             })
         }, index, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 200,
+            lineNumber: 202,
             columnNumber: 7
         }, this);
     }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -221,7 +223,7 @@ _c = CopyButton;
         children: "ไม่มีข้อความ"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 216,
+        lineNumber: 218,
         columnNumber: 8
     }, this);
     const formattedNewText = newText ? newText.split('\n').map((line, index)=>{
@@ -229,7 +231,7 @@ _c = CopyButton;
             className: "h-4"
         }, index, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 219,
+            lineNumber: 221,
             columnNumber: 30
         }, this);
         const words = line.split(/(\s+)/);
@@ -244,7 +246,7 @@ _c = CopyButton;
                         children: word
                     }, wordIndex, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 230,
+                        lineNumber: 232,
                         columnNumber: 15
                     }, this);
                 }
@@ -252,7 +254,7 @@ _c = CopyButton;
             })
         }, index, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 226,
+            lineNumber: 228,
             columnNumber: 7
         }, this);
     }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -260,7 +262,7 @@ _c = CopyButton;
         children: "ไม่มีข้อความ"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 242,
+        lineNumber: 244,
         columnNumber: 8
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -278,7 +280,7 @@ _c = CopyButton;
                                     className: "h-3 w-3 bg-red-500 rounded-full shadow-sm"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 252,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -286,13 +288,13 @@ _c = CopyButton;
                                     children: "OLD VERSION"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 253,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 249,
+                            lineNumber: 251,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -302,18 +304,18 @@ _c = CopyButton;
                                 children: formattedOldText
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 254,
+                                lineNumber: 256,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 253,
+                            lineNumber: 255,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/compare/[id]/page.tsx",
-                    lineNumber: 248,
+                    lineNumber: 250,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,7 +328,7 @@ _c = CopyButton;
                                     className: "h-3 w-3 bg-emerald-500 rounded-full shadow-sm"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 263,
+                                    lineNumber: 265,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -334,13 +336,13 @@ _c = CopyButton;
                                     children: "NEW VERSION"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 264,
+                                    lineNumber: 266,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 262,
+                            lineNumber: 264,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -350,29 +352,29 @@ _c = CopyButton;
                                 children: formattedNewText
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 267,
+                                lineNumber: 269,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 266,
+                            lineNumber: 268,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/compare/[id]/page.tsx",
-                    lineNumber: 261,
+                    lineNumber: 263,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 246,
+            lineNumber: 248,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 245,
+        lineNumber: 247,
         columnNumber: 5
     }, this);
 }
@@ -413,7 +415,7 @@ _c1 = DiffView;
                 className: "h-4"
             }, lineIndex, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 314,
+                lineNumber: 316,
                 columnNumber: 32
             }, this);
             const words = line.split(/(\s+)/);
@@ -426,7 +428,7 @@ _c1 = DiffView;
                             children: word
                         }, `${lineIndex}-${wordIndex}`, false, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 323,
+                            lineNumber: 325,
                             columnNumber: 17
                         }, this);
                     }
@@ -434,7 +436,7 @@ _c1 = DiffView;
                 })
             }, lineIndex, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 319,
+                lineNumber: 321,
                 columnNumber: 9
             }, this);
         });
@@ -451,7 +453,7 @@ _c1 = DiffView;
                 className: "h-4"
             }, lineIndex, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 349,
+                lineNumber: 351,
                 columnNumber: 32
             }, this);
             const words = line.split(/(\s+)/);
@@ -464,7 +466,7 @@ _c1 = DiffView;
                             children: word
                         }, `${lineIndex}-${wordIndex}`, false, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 358,
+                            lineNumber: 360,
                             columnNumber: 17
                         }, this);
                     }
@@ -472,7 +474,7 @@ _c1 = DiffView;
                 })
             }, lineIndex, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 354,
+                lineNumber: 356,
                 columnNumber: 9
             }, this);
         });
@@ -498,12 +500,12 @@ _c1 = DiffView;
                                         className: "h-5 w-5 text-gray-600"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 387,
+                                        lineNumber: 389,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 382,
+                                    lineNumber: 384,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -513,7 +515,7 @@ _c1 = DiffView;
                                             children: detail.document_name
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 390,
+                                            lineNumber: 392,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -524,14 +526,14 @@ _c1 = DiffView;
                                                     children: detail.version_old_label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 392,
+                                                    lineNumber: 394,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "→"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 393,
+                                                    lineNumber: 395,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -539,7 +541,7 @@ _c1 = DiffView;
                                                     children: detail.version_new_label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 394,
+                                                    lineNumber: 396,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -547,7 +549,7 @@ _c1 = DiffView;
                                                     children: "•"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 395,
+                                                    lineNumber: 397,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -559,25 +561,25 @@ _c1 = DiffView;
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 396,
+                                                    lineNumber: 398,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 391,
+                                            lineNumber: 393,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 391,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 381,
+                            lineNumber: 383,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -592,12 +594,12 @@ _c1 = DiffView;
                                         className: "h-5 w-5 text-gray-600"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 408,
+                                        lineNumber: 410,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 402,
+                                    lineNumber: 404,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -609,7 +611,7 @@ _c1 = DiffView;
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 411,
+                                    lineNumber: 413,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -621,29 +623,29 @@ _c1 = DiffView;
                                         className: "h-5 w-5 text-gray-600"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 421,
+                                        lineNumber: 423,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 415,
+                                    lineNumber: 417,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 401,
+                            lineNumber: 403,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/compare/[id]/page.tsx",
-                    lineNumber: 380,
+                    lineNumber: 382,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 379,
+                lineNumber: 381,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -664,7 +666,7 @@ _c1 = DiffView;
                                                     className: "h-4 w-4 bg-red-500 rounded-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 434,
+                                                    lineNumber: 436,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -672,7 +674,7 @@ _c1 = DiffView;
                                                     children: "OLD VERSION"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 435,
+                                                    lineNumber: 437,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -680,13 +682,13 @@ _c1 = DiffView;
                                                     children: detail.version_old_label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 436,
+                                                    lineNumber: 438,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 433,
+                                            lineNumber: 435,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -694,13 +696,13 @@ _c1 = DiffView;
                                             children: "ข้อความที่ถูกลบหรือเปลี่ยนแปลงจะถูกไฮไลท์ด้วยสีแดง"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 440,
+                                            lineNumber: 442,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 432,
+                                    lineNumber: 434,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -712,28 +714,28 @@ _c1 = DiffView;
                                             children: "ไม่มีข้อความ"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 445,
+                                            lineNumber: 447,
                                             columnNumber: 64
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 444,
+                                        lineNumber: 446,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 443,
+                                    lineNumber: 445,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 431,
+                            lineNumber: 433,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 430,
+                        lineNumber: 432,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -751,7 +753,7 @@ _c1 = DiffView;
                                                     className: "h-4 w-4 bg-emerald-500 rounded-full"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 456,
+                                                    lineNumber: 458,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -759,7 +761,7 @@ _c1 = DiffView;
                                                     children: "NEW VERSION"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 457,
+                                                    lineNumber: 459,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -767,13 +769,13 @@ _c1 = DiffView;
                                                     children: detail.version_new_label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 458,
+                                                    lineNumber: 460,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 455,
+                                            lineNumber: 457,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -781,13 +783,13 @@ _c1 = DiffView;
                                             children: "ข้อความที่เพิ่มหรือเปลี่ยนแปลงจะถูกไฮไลท์ด้วยสีเขียว"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 462,
+                                            lineNumber: 464,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 454,
+                                    lineNumber: 456,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -799,34 +801,34 @@ _c1 = DiffView;
                                             children: "ไม่มีข้อความ"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 467,
+                                            lineNumber: 469,
                                             columnNumber: 64
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 466,
+                                        lineNumber: 468,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 465,
+                                    lineNumber: 467,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 453,
+                            lineNumber: 455,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 452,
+                        lineNumber: 454,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 428,
+                lineNumber: 430,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -845,7 +847,7 @@ _c1 = DiffView;
                                             children: "Section:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 479,
+                                            lineNumber: 481,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -853,13 +855,13 @@ _c1 = DiffView;
                                             children: currentChange.section_label || "No Section"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 480,
+                                            lineNumber: 482,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 478,
+                                    lineNumber: 480,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -870,14 +872,14 @@ _c1 = DiffView;
                                             children: "Type:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 483,
+                                            lineNumber: 485,
                                             columnNumber: 15
                                         }, this),
                                         changeTypeBadge(currentChange.change_type)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 482,
+                                    lineNumber: 484,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -888,20 +890,20 @@ _c1 = DiffView;
                                             children: "Risk:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 487,
+                                            lineNumber: 489,
                                             columnNumber: 15
                                         }, this),
                                         riskBadge(currentChange.risk_level)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 486,
+                                    lineNumber: 488,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 477,
+                            lineNumber: 479,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -913,7 +915,7 @@ _c1 = DiffView;
                                     children: "ESC"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 493,
+                                    lineNumber: 495,
                                     columnNumber: 19
                                 }, this),
                                 " to close •",
@@ -922,7 +924,7 @@ _c1 = DiffView;
                                     children: "←"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 494,
+                                    lineNumber: 496,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("kbd", {
@@ -930,31 +932,31 @@ _c1 = DiffView;
                                     children: "→"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 495,
+                                    lineNumber: 497,
                                     columnNumber: 13
                                 }, this),
                                 " to navigate"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 492,
+                            lineNumber: 494,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/compare/[id]/page.tsx",
-                    lineNumber: 476,
+                    lineNumber: 478,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 475,
+                lineNumber: 477,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 377,
+        lineNumber: 379,
         columnNumber: 5
     }, this);
 }
@@ -972,14 +974,14 @@ function ExpandableText({ text, title, maxLength = 300, type = "normal" }) {
             children: line
         }, index, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 517,
+            lineNumber: 519,
             columnNumber: 5
         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
         className: "text-gray-400 italic",
         children: "ไม่มีข้อมูล"
     }, void 0, false, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 520,
+        lineNumber: 522,
         columnNumber: 8
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -992,12 +994,12 @@ function ExpandableText({ text, title, maxLength = 300, type = "normal" }) {
                     children: title
                 }, void 0, false, {
                     fileName: "[project]/app/compare/[id]/page.tsx",
-                    lineNumber: 526,
+                    lineNumber: 528,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 525,
+                lineNumber: 527,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1005,7 +1007,7 @@ function ExpandableText({ text, title, maxLength = 300, type = "normal" }) {
                 children: formattedText
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 529,
+                lineNumber: 531,
                 columnNumber: 7
             }, this),
             isLong && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1015,13 +1017,13 @@ function ExpandableText({ text, title, maxLength = 300, type = "normal" }) {
                 children: expanded ? "ย่อข้อความ" : "อ่านต่อ..."
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 533,
+                lineNumber: 535,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 523,
+        lineNumber: 525,
         columnNumber: 5
     }, this);
 }
@@ -1030,33 +1032,73 @@ _c3 = ExpandableText;
 /* ================= AI CHAT COMPONENT ================= */ function AIChat({ change }) {
     _s2();
     const [chatOpen, setChatOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [chatQuestion, setChatQuestion] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const [chatLoading, setChatLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [chatAnswer, setChatAnswer] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [messages, setMessages] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const [input, setInput] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [chatError, setChatError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const bottomRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "AIChat.useEffect": ()=>{
+            bottomRef.current?.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    }["AIChat.useEffect"], [
+        messages
+    ]);
     const sendChat = async ()=>{
-        const question = normalizeText(chatQuestion);
+        const question = input.trim();
         if (!question) return;
-        setChatLoading(true);
+        setInput("");
+        setLoading(true);
         setChatError(null);
+        // user bubble
+        setMessages((prev)=>[
+                ...prev,
+                {
+                    role: "user",
+                    content: question
+                }
+            ]);
+        // ai bubble placeholder
+        setMessages((prev)=>[
+                ...prev,
+                {
+                    role: "assistant",
+                    content: ""
+                }
+            ]);
         try {
-            const res = await fetch(`${API_BASE}/changes/${change.id}/chat`, {
+            const res = await fetch(`${API_BASE_CHAT}/changes/${change.id}/chat`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
-                    question,
-                    mode: "detailed"
+                    question
                 })
             });
             if (!res.ok) throw new Error(`Chat failed (${res.status})`);
             const data = await res.json();
-            setChatAnswer(normalizeText(data?.answer) || "");
+            const answer = normalizeText(data?.answer) || "";
+            setMessages((prev)=>{
+                const copy = [
+                    ...prev
+                ];
+                copy[copy.length - 1].content = answer;
+                return copy;
+            });
         } catch (e) {
             setChatError(e?.message || "ส่งคำถามไม่สำเร็จ");
+            setMessages((prev)=>{
+                const copy = [
+                    ...prev
+                ];
+                copy[copy.length - 1].content = "❌ เกิดข้อผิดพลาด";
+                return copy;
+            });
         } finally{
-            setChatLoading(false);
+            setLoading(false);
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1080,7 +1122,7 @@ _c3 = ExpandableText;
                                                     className: "h-5 w-5 text-white"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 591,
+                                                    lineNumber: 627,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1088,13 +1130,13 @@ _c3 = ExpandableText;
                                                     children: "ความคิดเห็นจาก AI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 592,
+                                                    lineNumber: 628,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 590,
+                                            lineNumber: 626,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CopyButton, {
@@ -1103,18 +1145,18 @@ _c3 = ExpandableText;
                                             variant: "primary"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 594,
+                                            lineNumber: 630,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 589,
+                                    lineNumber: 625,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 588,
+                                lineNumber: 624,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1124,18 +1166,18 @@ _c3 = ExpandableText;
                                     type: "ai"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 598,
+                                    lineNumber: 634,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 597,
+                                lineNumber: 633,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 587,
+                        lineNumber: 623,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1153,7 +1195,7 @@ _c3 = ExpandableText;
                                                     className: "h-5 w-5 text-white"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 607,
+                                                    lineNumber: 642,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1161,13 +1203,13 @@ _c3 = ExpandableText;
                                                     children: "คำแนะนำจาก AI"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 608,
+                                                    lineNumber: 643,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 606,
+                                            lineNumber: 641,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CopyButton, {
@@ -1176,18 +1218,18 @@ _c3 = ExpandableText;
                                             variant: "primary"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 610,
+                                            lineNumber: 645,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 605,
+                                    lineNumber: 640,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 604,
+                                lineNumber: 639,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1197,80 +1239,32 @@ _c3 = ExpandableText;
                                     type: "ai"
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 614,
+                                    lineNumber: 649,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 613,
+                                lineNumber: 648,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 603,
+                        lineNumber: 638,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 585,
-                columnNumber: 7
-            }, this),
-            normalizeText(change.risk_reason) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "rounded-xl border border-gray-200 bg-gradient-to-br from-gray-50/80 to-white p-4 shadow-sm",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center gap-2 mb-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ExclamationTriangleIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExclamationTriangleIcon$3e$__["ExclamationTriangleIcon"], {
-                                className: "h-5 w-5 text-gray-700"
-                            }, void 0, false, {
-                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 623,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-base font-bold text-gray-900",
-                                children: "เหตุผลระดับความเสี่ยง"
-                            }, void 0, false, {
-                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 624,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 622,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-base text-gray-700 leading-relaxed whitespace-pre-wrap",
-                        children: change.risk_reason ? change.risk_reason.split('\n').map((line, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mb-2 last:mb-0",
-                                children: line
-                            }, index, false, {
-                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 628,
-                                columnNumber: 15
-                            }, this)) : "ไม่มีข้อมูล"
-                    }, void 0, false, {
-                        fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 626,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/compare/[id]/page.tsx",
                 lineNumber: 621,
-                columnNumber: 9
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "rounded-xl border border-purple-200 overflow-hidden bg-gradient-to-br from-purple-50/30 to-white shadow-sm",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: ()=>setChatOpen(!chatOpen),
-                        className: "w-full px-4 py-3 bg-gradient-to-r from-purple-600 to-purple-700 flex items-center justify-between hover:from-purple-700 hover:to-purple-800 transition-all",
+                        className: "w-full px-4 py-3 bg-gradient-to-r from-purple-600 to-purple-700 flex items-center justify-between",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "flex items-center gap-2",
@@ -1279,7 +1273,7 @@ _c3 = ExpandableText;
                                         className: "h-5 w-5 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 643,
+                                        lineNumber: 662,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1287,13 +1281,13 @@ _c3 = ExpandableText;
                                         children: "ถาม AI เพิ่มเติมเกี่ยวกับจุดนี้"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 644,
+                                        lineNumber: 663,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 642,
+                                lineNumber: 661,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1301,182 +1295,113 @@ _c3 = ExpandableText;
                                 children: chatOpen ? "▲" : "▼"
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 646,
+                                lineNumber: 667,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 638,
+                        lineNumber: 657,
                         columnNumber: 9
                     }, this),
                     chatOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "p-4",
+                        className: "flex flex-col h-[420px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mb-4",
+                                className: "flex-1 overflow-auto p-4 space-y-3 bg-gray-50",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                        className: "block text-sm font-bold text-gray-700 mb-2",
-                                        children: "คำถามของคุณ"
+                                    messages.map((m, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: `flex ${m.role === "user" ? "justify-end" : "justify-start"}`,
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: `
+                      px-4 py-2 rounded-2xl max-w-[75%]
+                      whitespace-pre-wrap text-sm shadow
+                      ${m.role === "user" ? "bg-blue-600 text-white" : "bg-white border border-gray-200"}
+                    `,
+                                                children: m.content || (loading && m.role === "assistant" ? "กำลังคิด..." : "")
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/compare/[id]/page.tsx",
+                                                lineNumber: 682,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, i, false, {
+                                            fileName: "[project]/app/compare/[id]/page.tsx",
+                                            lineNumber: 678,
+                                            columnNumber: 17
+                                        }, this)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        ref: bottomRef
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 652,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                        value: chatQuestion,
-                                        onChange: (e)=>setChatQuestion(e.target.value),
-                                        placeholder: "พิมพ์คำถามเกี่ยวกับการเปลี่ยนแปลงนี้...",
-                                        rows: 3,
-                                        className: "w-full px-4 py-3 text-base border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 653,
+                                        lineNumber: 696,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 651,
+                                lineNumber: 675,
                                 columnNumber: 13
                             }, this),
                             chatError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mb-4 p-3 bg-red-50 border border-red-200 rounded-xl",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm text-red-700 flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ExclamationTriangleIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ExclamationTriangleIcon$3e$__["ExclamationTriangleIcon"], {
-                                            className: "h-4 w-4"
-                                        }, void 0, false, {
-                                            fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 665,
-                                            columnNumber: 19
-                                        }, this),
-                                        chatError
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 664,
-                                    columnNumber: 17
-                                }, this)
+                                className: "px-4 pb-2 text-sm text-red-600",
+                                children: chatError
                             }, void 0, false, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 663,
+                                lineNumber: 703,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex gap-2",
+                                className: "border-t p-3 flex gap-2 bg-white",
                                 children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                        value: input,
+                                        onChange: (e)=>setInput(e.target.value),
+                                        placeholder: "พิมพ์คำถาม...",
+                                        className: "flex-1 border rounded-lg px-3 py-2 text-sm",
+                                        onKeyDown: (e)=>{
+                                            if (e.key === "Enter") sendChat();
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/compare/[id]/page.tsx",
+                                        lineNumber: 712,
+                                        columnNumber: 15
+                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: sendChat,
-                                        disabled: chatLoading || !chatQuestion.trim(),
-                                        className: "px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 font-medium disabled:opacity-50 transition-all",
-                                        children: chatLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-center gap-2",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ArrowPathIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowPathIcon$3e$__["ArrowPathIcon"], {
-                                                    className: "h-4 w-4 animate-spin"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 679,
-                                                    columnNumber: 21
-                                                }, this),
-                                                "กำลังวิเคราะห์..."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 678,
-                                            columnNumber: 19
-                                        }, this) : "ส่งคำถาม"
+                                        disabled: loading,
+                                        className: "bg-blue-600 text-white px-4 rounded-lg text-sm font-medium",
+                                        children: "ส่ง"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 672,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CopyButton, {
-                                        text: chatAnswer,
-                                        label: "คัดลอกคำตอบ",
-                                        variant: "primary"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 684,
+                                        lineNumber: 722,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 671,
+                                lineNumber: 710,
                                 columnNumber: 13
-                            }, this),
-                            chatAnswer && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-4 p-4 bg-gradient-to-br from-blue-50/50 to-white border border-blue-200 rounded-xl",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex items-center gap-2 mb-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$SparklesIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__SparklesIcon$3e$__["SparklesIcon"], {
-                                                className: "h-5 w-5 text-blue-600"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                                lineNumber: 690,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                className: "text-base font-bold text-gray-900",
-                                                children: "คำตอบจาก AI"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                                lineNumber: 691,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 689,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-base text-gray-800 whitespace-pre-wrap leading-relaxed",
-                                        children: chatAnswer.split('\n').map((line, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mb-2 last:mb-0",
-                                                children: line
-                                            }, index, false, {
-                                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                                lineNumber: 695,
-                                                columnNumber: 21
-                                            }, this))
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 693,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/compare/[id]/page.tsx",
-                                lineNumber: 688,
-                                columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 650,
+                        lineNumber: 672,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 637,
+                lineNumber: 655,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/compare/[id]/page.tsx",
-        lineNumber: 583,
+        lineNumber: 618,
         columnNumber: 5
     }, this);
 }
-_s2(AIChat, "IG1iHNkuTGri3SFST5QcQgBZ/CM=");
+_s2(AIChat, "GfNB3mFzkK9S4BqOzXbzSGqUE9U=");
 _c4 = AIChat;
 function CompareReportPage() {
     _s3();
@@ -1600,7 +1525,7 @@ function CompareReportPage() {
                         className: "h-12 w-12 animate-spin text-blue-600 mx-auto"
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 811,
+                        lineNumber: 844,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1608,18 +1533,18 @@ function CompareReportPage() {
                         children: "กำลังโหลดรายงาน..."
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 812,
+                        lineNumber: 845,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 810,
+                lineNumber: 843,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 809,
+            lineNumber: 842,
             columnNumber: 7
         }, this);
     }
@@ -1633,7 +1558,7 @@ function CompareReportPage() {
                         className: "h-12 w-12 text-red-500 mx-auto"
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 822,
+                        lineNumber: 855,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1641,7 +1566,7 @@ function CompareReportPage() {
                         children: "ไม่พบรายงาน"
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 823,
+                        lineNumber: 856,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1649,7 +1574,7 @@ function CompareReportPage() {
                         children: error || "ไม่พบข้อมูลการเปรียบเทียบนี้"
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 824,
+                        lineNumber: 857,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1658,18 +1583,18 @@ function CompareReportPage() {
                         children: "โหลดใหม่"
                     }, void 0, false, {
                         fileName: "[project]/app/compare/[id]/page.tsx",
-                        lineNumber: 825,
+                        lineNumber: 858,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 821,
+                lineNumber: 854,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 820,
+            lineNumber: 853,
             columnNumber: 7
         }, this);
     }
@@ -1678,7 +1603,7 @@ function CompareReportPage() {
             children: line
         }, index, false, {
             fileName: "[project]/app/compare/[id]/page.tsx",
-            lineNumber: 837,
+            lineNumber: 870,
             columnNumber: 5
         }, this)) : null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -1688,7 +1613,7 @@ function CompareReportPage() {
                 onClose: ()=>setShowFullscreen(false)
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 845,
+                lineNumber: 878,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1713,7 +1638,7 @@ function CompareReportPage() {
                                                             children: detail.document_name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 858,
+                                                            lineNumber: 891,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1727,7 +1652,7 @@ function CompareReportPage() {
                                                                             children: detail.version_old_label
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 863,
+                                                                            lineNumber: 896,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1735,7 +1660,7 @@ function CompareReportPage() {
                                                                             children: "→"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 866,
+                                                                            lineNumber: 899,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1743,13 +1668,13 @@ function CompareReportPage() {
                                                                             children: detail.version_new_label
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 867,
+                                                                            lineNumber: 900,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 862,
+                                                                    lineNumber: 895,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1760,14 +1685,14 @@ function CompareReportPage() {
                                                                             children: "•"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 872,
+                                                                            lineNumber: 905,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         formatDateTime(detail.created_at)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 871,
+                                                                    lineNumber: 904,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1778,7 +1703,7 @@ function CompareReportPage() {
                                                                             children: "•"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 876,
+                                                                            lineNumber: 909,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1788,25 +1713,25 @@ function CompareReportPage() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 877,
+                                                                            lineNumber: 910,
                                                                             columnNumber: 23
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 875,
+                                                                    lineNumber: 908,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 861,
+                                                            lineNumber: 894,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 857,
+                                                    lineNumber: 890,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1820,7 +1745,7 @@ function CompareReportPage() {
                                                                     children: "ความเสี่ยงรวม"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 884,
+                                                                    lineNumber: 917,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1828,13 +1753,13 @@ function CompareReportPage() {
                                                                     children: detail.overall_risk_level || "ไม่ระบุ"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 885,
+                                                                    lineNumber: 918,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 883,
+                                                            lineNumber: 916,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1848,14 +1773,14 @@ function CompareReportPage() {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 899,
+                                                                            lineNumber: 932,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         "สร้างรายงาน"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 895,
+                                                                    lineNumber: 928,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1867,20 +1792,20 @@ function CompareReportPage() {
                                                                             className: "h-4 w-4 animate-spin"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 909,
+                                                                            lineNumber: 942,
                                                                             columnNumber: 25
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$SparklesIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__SparklesIcon$3e$__["SparklesIcon"], {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 911,
+                                                                            lineNumber: 944,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         annotating ? "กำลังวิเคราะห์..." : "AI วิเคราะห์ใหม่"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 903,
+                                                                    lineNumber: 936,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1891,32 +1816,32 @@ function CompareReportPage() {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 920,
+                                                                            lineNumber: 953,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         "ฟิลเตอร์"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 916,
+                                                                    lineNumber: 949,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 894,
+                                                            lineNumber: 927,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 882,
+                                                    lineNumber: 915,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 856,
+                                            lineNumber: 889,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1932,7 +1857,7 @@ function CompareReportPage() {
                                                                 children: riskSummary.HIGH
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 931,
+                                                                lineNumber: 964,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1940,13 +1865,13 @@ function CompareReportPage() {
                                                                 children: "HIGH RISK"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 932,
+                                                                lineNumber: 965,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 930,
+                                                        lineNumber: 963,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1957,7 +1882,7 @@ function CompareReportPage() {
                                                                 children: riskSummary.MEDIUM
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 935,
+                                                                lineNumber: 968,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1965,13 +1890,13 @@ function CompareReportPage() {
                                                                 children: "MEDIUM RISK"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 936,
+                                                                lineNumber: 969,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 934,
+                                                        lineNumber: 967,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1982,7 +1907,7 @@ function CompareReportPage() {
                                                                 children: riskSummary.LOW
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 939,
+                                                                lineNumber: 972,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1990,13 +1915,13 @@ function CompareReportPage() {
                                                                 children: "LOW RISK"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 940,
+                                                                lineNumber: 973,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 938,
+                                                        lineNumber: 971,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2007,7 +1932,7 @@ function CompareReportPage() {
                                                                 children: riskSummary.TOTAL
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 943,
+                                                                lineNumber: 976,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2015,30 +1940,30 @@ function CompareReportPage() {
                                                                 children: "TOTAL CHANGES"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 944,
+                                                                lineNumber: 977,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 942,
+                                                        lineNumber: 975,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                lineNumber: 929,
+                                                lineNumber: 962,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 928,
+                                            lineNumber: 961,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 855,
+                                    lineNumber: 888,
                                     columnNumber: 13
                                 }, this),
                                 detail.summary_text && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2051,7 +1976,7 @@ function CompareReportPage() {
                                                     className: "h-6 w-6 text-blue-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 954,
+                                                    lineNumber: 987,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2059,13 +1984,13 @@ function CompareReportPage() {
                                                     children: "สรุปผลการวิเคราะห์"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 955,
+                                                    lineNumber: 988,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 953,
+                                            lineNumber: 986,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2073,19 +1998,19 @@ function CompareReportPage() {
                                             children: formattedSummaryText
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 957,
+                                            lineNumber: 990,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 952,
+                                    lineNumber: 985,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 854,
+                            lineNumber: 887,
                             columnNumber: 11
                         }, this),
                         showFilters && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2101,7 +2026,7 @@ function CompareReportPage() {
                                                     className: "h-5 w-5 text-gray-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 969,
+                                                    lineNumber: 1002,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2109,13 +2034,13 @@ function CompareReportPage() {
                                                     children: "ค้นหาและกรองข้อมูล"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 970,
+                                                    lineNumber: 1003,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 968,
+                                            lineNumber: 1001,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2124,13 +2049,13 @@ function CompareReportPage() {
                                             children: "ปิด"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 972,
+                                            lineNumber: 1005,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 967,
+                                    lineNumber: 1000,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2143,7 +2068,7 @@ function CompareReportPage() {
                                                     children: "ค้นหาคำ"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 982,
+                                                    lineNumber: 1015,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2153,7 +2078,7 @@ function CompareReportPage() {
                                                             className: "h-5 w-5 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 984,
+                                                            lineNumber: 1017,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2163,19 +2088,19 @@ function CompareReportPage() {
                                                             className: "w-full pl-10 pr-3 py-3 text-base border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 985,
+                                                            lineNumber: 1018,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 983,
+                                                    lineNumber: 1016,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 981,
+                                            lineNumber: 1014,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2188,7 +2113,7 @@ function CompareReportPage() {
                                                             children: "กรองความเสี่ยง"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 996,
+                                                            lineNumber: 1029,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2201,7 +2126,7 @@ function CompareReportPage() {
                                                                     children: "ความเสี่ยงทั้งหมด"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1002,
+                                                                    lineNumber: 1035,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2209,7 +2134,7 @@ function CompareReportPage() {
                                                                     children: "HIGH"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1003,
+                                                                    lineNumber: 1036,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2217,7 +2142,7 @@ function CompareReportPage() {
                                                                     children: "MEDIUM"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1004,
+                                                                    lineNumber: 1037,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2225,19 +2150,19 @@ function CompareReportPage() {
                                                                     children: "LOW"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1005,
+                                                                    lineNumber: 1038,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 997,
+                                                            lineNumber: 1030,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 995,
+                                                    lineNumber: 1028,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2247,7 +2172,7 @@ function CompareReportPage() {
                                                             children: "กรองประเภท"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 1009,
+                                                            lineNumber: 1042,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2260,7 +2185,7 @@ function CompareReportPage() {
                                                                     children: "ประเภททั้งหมด"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1015,
+                                                                    lineNumber: 1048,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2268,7 +2193,7 @@ function CompareReportPage() {
                                                                     children: "ADDED"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1016,
+                                                                    lineNumber: 1049,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2276,7 +2201,7 @@ function CompareReportPage() {
                                                                     children: "REMOVED"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1017,
+                                                                    lineNumber: 1050,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2284,31 +2209,31 @@ function CompareReportPage() {
                                                                     children: "MODIFIED"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1018,
+                                                                    lineNumber: 1051,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 1010,
+                                                            lineNumber: 1043,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 1008,
+                                                    lineNumber: 1041,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 994,
+                                            lineNumber: 1027,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 980,
+                                    lineNumber: 1013,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2322,13 +2247,13 @@ function CompareReportPage() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 1024,
+                                    lineNumber: 1057,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 966,
+                            lineNumber: 999,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2342,7 +2267,7 @@ function CompareReportPage() {
                                             children: "รายการเปลี่ยนแปลง"
                                         }, void 0, false, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 1033,
+                                            lineNumber: 1066,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2353,13 +2278,13 @@ function CompareReportPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                            lineNumber: 1034,
+                                            lineNumber: 1067,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 1032,
+                                    lineNumber: 1065,
                                     columnNumber: 13
                                 }, this),
                                 filteredChanges.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2369,12 +2294,12 @@ function CompareReportPage() {
                                         children: "ไม่พบรายการเปลี่ยนแปลงตามเงื่อนไขที่เลือก"
                                     }, void 0, false, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 1041,
+                                        lineNumber: 1074,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                    lineNumber: 1040,
+                                    lineNumber: 1073,
                                     columnNumber: 15
                                 }, this) : filteredChanges.map((change, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden",
@@ -2393,13 +2318,13 @@ function CompareReportPage() {
                                                                     children: change.section_label || "ไม่มีหัวข้อ"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1051,
+                                                                    lineNumber: 1084,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 1049,
+                                                            lineNumber: 1082,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2414,7 +2339,7 @@ function CompareReportPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1057,
+                                                                    lineNumber: 1090,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2425,31 +2350,31 @@ function CompareReportPage() {
                                                                             className: "h-4 w-4"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                            lineNumber: 1062,
+                                                                            lineNumber: 1095,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         "เปิดเต็มจอ"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                    lineNumber: 1058,
+                                                                    lineNumber: 1091,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 1055,
+                                                            lineNumber: 1088,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/compare/[id]/page.tsx",
-                                                    lineNumber: 1048,
+                                                    lineNumber: 1081,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                lineNumber: 1047,
+                                                lineNumber: 1080,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2462,7 +2387,7 @@ function CompareReportPage() {
                                                                 children: "การเปลี่ยนแปลงข้อความ"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 1073,
+                                                                lineNumber: 1106,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DiffView, {
@@ -2470,13 +2395,13 @@ function CompareReportPage() {
                                                                 newText: normalizeText(change.new_text)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 1074,
+                                                                lineNumber: 1107,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 1072,
+                                                        lineNumber: 1105,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2488,7 +2413,7 @@ function CompareReportPage() {
                                                                         className: "h-8 w-1 bg-gradient-to-b from-purple-500 to-purple-600 rounded-full"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                        lineNumber: 1083,
+                                                                        lineNumber: 1116,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -2496,26 +2421,26 @@ function CompareReportPage() {
                                                                         children: "การวิเคราะห์ด้วย AI"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                        lineNumber: 1084,
+                                                                        lineNumber: 1117,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 1082,
+                                                                lineNumber: 1115,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AIChat, {
                                                                 change: change
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                                lineNumber: 1086,
+                                                                lineNumber: 1119,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 1081,
+                                                        lineNumber: 1114,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2526,41 +2451,41 @@ function CompareReportPage() {
                                                             variant: "primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/compare/[id]/page.tsx",
-                                                            lineNumber: 1091,
+                                                            lineNumber: 1124,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                                        lineNumber: 1090,
+                                                        lineNumber: 1123,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/compare/[id]/page.tsx",
-                                                lineNumber: 1070,
+                                                lineNumber: 1103,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, change.id, true, {
                                         fileName: "[project]/app/compare/[id]/page.tsx",
-                                        lineNumber: 1045,
+                                        lineNumber: 1078,
                                         columnNumber: 17
                                     }, this))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/compare/[id]/page.tsx",
-                            lineNumber: 1031,
+                            lineNumber: 1064,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/compare/[id]/page.tsx",
-                    lineNumber: 852,
+                    lineNumber: 885,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/compare/[id]/page.tsx",
-                lineNumber: 851,
+                lineNumber: 884,
                 columnNumber: 7
             }, this)
         ]

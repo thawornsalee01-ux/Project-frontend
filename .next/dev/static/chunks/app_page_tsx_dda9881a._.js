@@ -37,9 +37,9 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 // ชัดเจนกว่าเดิม
-const COMPARE_API = ("TURBOPACK compile-time value", "http://localhost:8000") ?? "/api/compare";
-const HISTORY_API = ("TURBOPACK compile-time value", "http://localhost:8001") ?? "/api/history";
-const HISTORY_CONTINUE_API = ("TURBOPACK compile-time value", "http://localhost:8001") ?? "/api/history";
+const COMPARE_API = ("TURBOPACK compile-time value", "/api/compare") ?? "/api/compare";
+const HISTORY_API = ("TURBOPACK compile-time value", "/api/history") ?? "/api/history";
+const HISTORY_CONTINUE_API = ("TURBOPACK compile-time value", "/api/history") ?? "/api/history";
 // Facebook Color Palette
 const COLORS = {
     primary: "#1877F2",

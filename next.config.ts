@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         source: "/api/history/:path*",
         destination: "http://history:8001/:path*",
       },
+      {
+        source: "/api/chat/:path*",
+        destination: "http://chat:8030/:path*",
+      },
     ];
   },
 };

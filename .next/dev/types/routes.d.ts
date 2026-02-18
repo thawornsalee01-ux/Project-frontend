@@ -5,12 +5,13 @@ type AppRoutes = "/" | "/compare/[id]" | "/dashboard" | "/documents" | "/history
 type PageRoutes = never
 type LayoutRoutes = "/"
 type RedirectRoutes = never
-type RewriteRoutes = "/api/compare/[[...path]]" | "/api/history/[[...path]]"
+type RewriteRoutes = "/api/chat/[[...path]]" | "/api/compare/[[...path]]" | "/api/history/[[...path]]"
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes
 
 
 interface ParamMap {
   "/": {}
+  "/api/chat/[[...path]]": { "path"?: string[]; }
   "/api/compare/[[...path]]": { "path"?: string[]; }
   "/api/history/[[...path]]": { "path"?: string[]; }
   "/compare/[id]": { "id": string; }

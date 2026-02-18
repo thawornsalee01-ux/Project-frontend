@@ -6,6 +6,9 @@ self.__BUILD_MANIFEST = {
       },
       {
         "source": "/api/history/:path*"
+      },
+      {
+        "source": "/api/chat/:path*"
       }
     ],
     "beforeFiles": [],

@@ -1,4 +1,5 @@
 "use client";
+import { useRef } from "react"
 
 import { useParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
@@ -60,6 +61,7 @@ type ChatState = {
 };
 
 const API_BASE = process.env.NEXT_PUBLIC_HISTORY_API ?? "/api/history";
+const API_BASE_CHAT = process.env.NEXT_PUBLIC_HISTORY_CHAT_API ?? "/api/chat";
 
 
 /* ================= HELPERS ================= */
@@ -545,45 +547,79 @@ function ExpandableText({ text, title, maxLength = 300, type = "normal" }: {
 /* ================= AI CHAT COMPONENT ================= */
 
 function AIChat({ change }: { change: ChangeItem }) {
-  const [chatOpen, setChatOpen] = useState(false);
-  const [chatQuestion, setChatQuestion] = useState("");
-  const [chatLoading, setChatLoading] = useState(false);
-  const [chatAnswer, setChatAnswer] = useState("");
-  const [chatError, setChatError] = useState<string | null>(null);
+
+  const [chatOpen, setChatOpen] = useState(false)
+
+  const [messages, setMessages] = useState<
+    { role: "user" | "assistant", content: string }[]
+  >([])
+
+  const [input, setInput] = useState("")
+  const [loading, setLoading] = useState(false)
+  const [chatError, setChatError] = useState<string | null>(null)
+
+  const bottomRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" })
+  }, [messages])
+
 
   const sendChat = async () => {
-    const question = normalizeText(chatQuestion);
-    if (!question) return;
 
-    setChatLoading(true);
-    setChatError(null);
+    const question = input.trim()
+    if (!question) return
+
+    setInput("")
+    setLoading(true)
+    setChatError(null)
+
+    // user bubble
+    setMessages(prev => [...prev, { role: "user", content: question }])
+
+    // ai bubble placeholder
+    setMessages(prev => [...prev, { role: "assistant", content: "" }])
 
     try {
-      const res = await fetch(`${API_BASE}/changes/${change.id}/chat`, {
+      const res = await fetch(`${API_BASE_CHAT}/changes/${change.id}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ 
-          question,
-          mode: "detailed"
-        }),
-      });
+        body: JSON.stringify({ question }),
+      })
 
-      if (!res.ok) throw new Error(`Chat failed (${res.status})`);
-      const data = await res.json();
+      if (!res.ok) throw new Error(`Chat failed (${res.status})`)
 
-      setChatAnswer(normalizeText(data?.answer) || "");
+      const data = await res.json()
+      const answer = normalizeText(data?.answer) || ""
+
+      setMessages(prev => {
+        const copy = [...prev]
+        copy[copy.length - 1].content = answer
+        return copy
+      })
+
     } catch (e: any) {
-      setChatError(e?.message || "ส่งคำถามไม่สำเร็จ");
+
+      setChatError(e?.message || "ส่งคำถามไม่สำเร็จ")
+
+      setMessages(prev => {
+        const copy = [...prev]
+        copy[copy.length - 1].content = "❌ เกิดข้อผิดพลาด"
+        return copy
+      })
+
     } finally {
-      setChatLoading(false);
+      setLoading(false)
     }
-  };
+  }
+
 
   return (
     <div className="space-y-4">
-      {/* AI Analysis Grid */}
+
+      {/* ================= AI COMMENT + SUGGESTION (เหมือนเดิม) ================= */}
       <div className="grid md:grid-cols-2 gap-4">
-        {/* AI Comment */}
+
         <div className="rounded-xl overflow-hidden border border-blue-200 bg-gradient-to-br from-blue-50/80 to-white shadow-sm">
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3">
             <div className="flex items-center justify-between">
@@ -599,7 +635,6 @@ function AIChat({ change }: { change: ChangeItem }) {
           </div>
         </div>
 
-        {/* AI Suggestion */}
         <div className="rounded-xl overflow-hidden border border-amber-200 bg-gradient-to-br from-amber-50/80 to-white shadow-sm">
           <div className="bg-gradient-to-r from-amber-600 to-amber-700 px-4 py-3">
             <div className="flex items-center justify-between">
@@ -614,97 +649,95 @@ function AIChat({ change }: { change: ChangeItem }) {
             <ExpandableText text={change.ai_suggestion} type="ai" />
           </div>
         </div>
+
       </div>
-
-      {/* Risk Reason */}
-      {normalizeText(change.risk_reason) && (
-        <div className="rounded-xl border border-gray-200 bg-gradient-to-br from-gray-50/80 to-white p-4 shadow-sm">
-          <div className="flex items-center gap-2 mb-2">
-            <ExclamationTriangleIcon className="h-5 w-5 text-gray-700" />
-            <h3 className="text-base font-bold text-gray-900">เหตุผลระดับความเสี่ยง</h3>
-          </div>
-          <div className="text-base text-gray-700 leading-relaxed whitespace-pre-wrap">
-            {change.risk_reason ? change.risk_reason.split('\n').map((line, index) => (
-              <div key={index} className="mb-2 last:mb-0">
-                {line}
-              </div>
-            )) : "ไม่มีข้อมูล"}
-          </div>
-        </div>
-      )}
-
-      {/* AI Chat Interface */}
+      {/* ================= CHAT BUBBLE ================= */}
       <div className="rounded-xl border border-purple-200 overflow-hidden bg-gradient-to-br from-purple-50/30 to-white shadow-sm">
+
         <button
           onClick={() => setChatOpen(!chatOpen)}
-          className="w-full px-4 py-3 bg-gradient-to-r from-purple-600 to-purple-700 flex items-center justify-between hover:from-purple-700 hover:to-purple-800 transition-all"
+          className="w-full px-4 py-3 bg-gradient-to-r from-purple-600 to-purple-700 flex items-center justify-between"
         >
           <div className="flex items-center gap-2">
             <ChatBubbleLeftRightIcon className="h-5 w-5 text-white" />
-            <span className="text-base font-bold text-white">ถาม AI เพิ่มเติมเกี่ยวกับจุดนี้</span>
+            <span className="text-base font-bold text-white">
+              ถาม AI เพิ่มเติมเกี่ยวกับจุดนี้
+            </span>
           </div>
           <span className="text-white font-bold">{chatOpen ? "▲" : "▼"}</span>
         </button>
 
+
         {chatOpen && (
-          <div className="p-4">
-            <div className="mb-4">
-              <label className="block text-sm font-bold text-gray-700 mb-2">คำถามของคุณ</label>
-              <textarea
-                value={chatQuestion}
-                onChange={(e) => setChatQuestion(e.target.value)}
-                placeholder="พิมพ์คำถามเกี่ยวกับการเปลี่ยนแปลงนี้..."
-                rows={3}
-                className="w-full px-4 py-3 text-base border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-              />
+          <div className="flex flex-col h-[420px]">
+
+            {/* chat messages */}
+            <div className="flex-1 overflow-auto p-4 space-y-3 bg-gray-50">
+
+              {messages.map((m, i) => (
+                <div
+                  key={i}
+                  className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}
+                >
+                  <div
+                    className={`
+                      px-4 py-2 rounded-2xl max-w-[75%]
+                      whitespace-pre-wrap text-sm shadow
+                      ${m.role === "user"
+                        ? "bg-blue-600 text-white"
+                        : "bg-white border border-gray-200"}
+                    `}
+                  >
+                    {m.content || (loading && m.role === "assistant" ? "กำลังคิด..." : "")}
+                  </div>
+                </div>
+              ))}
+
+              <div ref={bottomRef} />
+
             </div>
 
+
+            {/* error */}
             {chatError && (
-              <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-xl">
-                <p className="text-sm text-red-700 flex items-center gap-2">
-                  <ExclamationTriangleIcon className="h-4 w-4" />
-                  {chatError}
-                </p>
+              <div className="px-4 pb-2 text-sm text-red-600">
+                {chatError}
               </div>
             )}
 
-            <div className="flex gap-2">
+
+            {/* input */}
+            <div className="border-t p-3 flex gap-2 bg-white">
+
+              <input
+                value={input}
+                onChange={e => setInput(e.target.value)}
+                placeholder="พิมพ์คำถาม..."
+                className="flex-1 border rounded-lg px-3 py-2 text-sm"
+                onKeyDown={e => {
+                  if (e.key === "Enter") sendChat()
+                }}
+              />
+
               <button
                 onClick={sendChat}
-                disabled={chatLoading || !chatQuestion.trim()}
-                className="px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 font-medium disabled:opacity-50 transition-all"
+                disabled={loading}
+                className="bg-blue-600 text-white px-4 rounded-lg text-sm font-medium"
               >
-                {chatLoading ? (
-                  <div className="flex items-center gap-2">
-                    <ArrowPathIcon className="h-4 w-4 animate-spin" />
-                    กำลังวิเคราะห์...
-                  </div>
-                ) : "ส่งคำถาม"}
+                ส่ง
               </button>
-              <CopyButton text={chatAnswer} label="คัดลอกคำตอบ" variant="primary" />
+
             </div>
 
-            {chatAnswer && (
-              <div className="mt-4 p-4 bg-gradient-to-br from-blue-50/50 to-white border border-blue-200 rounded-xl">
-                <div className="flex items-center gap-2 mb-2">
-                  <SparklesIcon className="h-5 w-5 text-blue-600" />
-                  <h4 className="text-base font-bold text-gray-900">คำตอบจาก AI</h4>
-                </div>
-                <div className="text-base text-gray-800 whitespace-pre-wrap leading-relaxed">
-                  {chatAnswer.split('\n').map((line, index) => (
-                    <div key={index} className="mb-2 last:mb-0">
-                      {line}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         )}
+
       </div>
+
     </div>
-  );
+  )
 }
+
 
 /* ================= MAIN PAGE ================= */
 
