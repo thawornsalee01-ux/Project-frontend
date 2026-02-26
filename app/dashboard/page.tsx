@@ -28,8 +28,7 @@ type ComparisonItem = {
 
 type Role = "ADMIN" | "LEGAL" | "MANAGER" | "VIEWER";
 
-const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE?.trim() || "http://127.0.0.1:8000";
+const API_BASE = process.env.NEXT_PUBLIC_HISTORY_API ?? "/api/history";
 
 // Facebook colors
 const FB_BLUE = "#1877F2";

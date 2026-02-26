@@ -1,137 +1,259 @@
-[00:00:47.569] Server  LOG      ✓ Ready in 28.6s
-[00:01:14.192] Server  LOG      ○ Compiling / ...
-[00:01:29.047] Server  WARN     ⚠ Cross origin request detected from 192.168.40.35 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:37.330] Server  LOG      ✓ Ready in 22.9s
+[00:00:37.376] Server  WARN     ⚠ Cross origin request detected from 192.168.40.35 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:01:29.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:43.531] Server  LOG      ○ Compiling /history ...
-[00:02:15.540] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:00:40.486] Server  LOG      ○ Compiling / ...
+[00:00:48.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:20.503] Browser LOG     Status: processing
+[00:01:25.879] Browser LOG     Status: processing
+[00:01:29.991] Browser LOG     Status: processing
+[00:01:34.978] Browser LOG     Status: processing
+[00:01:42.429] Browser LOG     Status: processing
+[00:01:48.639] Browser LOG     Status: processing
+[00:01:51.730] Browser LOG     Status: processing
+[00:01:57.810] Browser LOG     Status: processing
+[00:02:04.890] Browser LOG     Status: processing
+[00:02:07.894] Browser LOG     Status: processing
+[00:02:10.576] Browser LOG     Status: processing
+[00:02:14.995] Browser LOG     Status: processing
+[00:02:20.014] Browser LOG     Status: processing
+[00:02:24.964] Browser LOG     Status: processing
+[00:02:29.962] Browser LOG     Status: processing
+[00:02:35.898] Browser LOG     Status: processing
+[00:02:39.968] Browser LOG     Status: processing
+[00:02:44.958] Browser LOG     Status: processing
+[00:02:50.047] Browser LOG     Status: processing
+[00:02:54.986] Browser LOG     Status: processing
+[00:03:00.909] Browser LOG     Status: processing
+[00:03:05.019] Browser LOG     Status: processing
+[00:03:10.663] Browser LOG     Status: processing
+[00:03:18.178] Browser LOG     Status: processing
+[00:03:19.984] Browser LOG     Status: processing
+[00:03:25.782] Browser LOG     Status: processing
+[00:03:31.419] Browser LOG     Status: processing
+[00:03:34.988] Browser LOG     Status: processing
+[00:03:40.388] Browser LOG     Status: processing
+[00:03:44.979] Browser LOG     Status: processing
+[00:03:49.971] Browser LOG     Status: processing
+[00:03:58.172] Browser LOG     Status: processing
+[00:03:59.988] Browser LOG     Status: done
+[00:04:37.598] Server  LOG      ○ Compiling /history ...
+[00:04:46.698] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:15.540] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:04:46.698] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:17.172] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:04:48.631] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:17.172] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:04:48.631] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:18.320] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:04:50.616] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:18.320] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:04:50.616] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:19.524] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:15:12.678] Browser LOG     Status: processing
+[01:15:17.677] Browser LOG     Status: processing
+[01:15:23.148] Browser LOG     Status: processing
+[01:15:27.635] Browser LOG     Status: processing
+[01:15:32.616] Browser LOG     Status: processing
+[01:15:37.645] Browser LOG     Status: processing
+[01:15:42.648] Browser LOG     Status: processing
+[01:15:49.709] Browser LOG     Status: processing
+[01:15:53.733] Browser LOG     Status: processing
+[01:15:59.493] Browser LOG     Status: processing
+[01:16:05.498] Browser LOG     Status: processing
+[01:16:09.502] Browser LOG     Status: processing
+[01:16:14.483] Browser LOG     Status: processing
+[01:16:19.490] Browser LOG     Status: processing
+[01:16:24.498] Browser LOG     Status: processing
+[01:16:29.495] Browser LOG     Status: processing
+[01:16:38.381] Browser LOG     Status: processing
+[01:16:39.492] Browser LOG     Status: processing
+[01:16:44.494] Browser LOG     Status: processing
+[01:16:49.497] Browser LOG     Status: processing
+[01:16:54.491] Browser LOG     Status: processing
+[01:17:27.487] Browser LOG     Status: done
+[01:19:41.040] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:19.524] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:19:41.040] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:21.905] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:26:57.119] Server  LOG      ○ Compiling /dashboard ...
+[01:27:28.350] Browser LOG     Status: processing
+[01:27:45.540] Browser LOG     Status: processing
+[01:27:54.755] Browser LOG     Status: processing
+[01:27:55.171] Browser LOG     Status: processing
+[01:27:55.320] Browser LOG     Status: processing
+[01:27:56.003] Browser LOG     Status: processing
+[01:27:56.733] Browser LOG     Status: processing
+[01:28:02.446] Browser LOG     Status: processing
+[01:28:09.574] Browser LOG     Status: processing
+[01:28:11.674] Browser LOG     Status: processing
+[01:28:16.694] Browser LOG     Status: processing
+[01:28:21.671] Browser LOG     Status: processing
+[01:28:28.503] Browser LOG     Status: processing
+[01:28:31.656] Browser LOG     Status: processing
+[01:28:36.687] Browser LOG     Status: processing
+[01:28:41.709] Browser LOG     Status: processing
+[01:28:46.671] Browser LOG     Status: processing
+[01:28:53.922] Browser LOG     Status: processing
+[01:28:56.672] Browser LOG     Status: processing
+[01:29:07.544] Browser LOG     Status: processing
+[01:29:09.816] Browser LOG     Status: processing
+[01:29:11.670] Browser LOG     Status: processing
+[01:29:17.494] Browser LOG     Status: processing
+[01:29:21.672] Browser LOG     Status: processing
+[01:29:26.673] Browser LOG     Status: processing
+[01:29:31.669] Browser LOG     Status: processing
+[01:29:36.675] Browser LOG     Status: processing
+[01:29:41.666] Browser LOG     Status: processing
+[01:29:46.676] Browser LOG     Status: processing
+[01:29:51.659] Browser LOG     Status: processing
+[01:29:56.676] Browser LOG     Status: processing
+[01:30:01.676] Browser LOG     Status: processing
+[01:30:06.679] Browser LOG     Status: processing
+[01:30:11.673] Browser LOG     Status: processing
+[01:30:16.675] Browser LOG     Status: processing
+[01:30:21.677] Browser LOG     Status: processing
+[01:30:26.928] Browser LOG     Status: processing
+[01:30:31.678] Browser LOG     Status: done
+[01:31:28.271] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:21.905] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:28.271] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:24.069] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:30.040] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:24.070] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:30.040] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:24.471] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:31.893] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:24.471] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:31.893] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:26.097] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:33.522] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:26.097] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:31:33.522] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:50.921] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:38:59.151] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:02:50.921] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:38:59.152] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:52.923] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:39:08.295] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:52.923] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:39:08.295] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:54.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:39:55.052] Browser LOG     Status: processing
+[01:40:00.131] Browser LOG     Status: processing
+[01:40:05.211] Browser LOG     Status: processing
+[01:40:10.099] Browser LOG     Status: processing
+[01:40:15.005] Browser LOG     Status: processing
+[01:40:20.025] Browser LOG     Status: processing
+[01:40:25.044] Browser LOG     Status: processing
+[01:40:30.028] Browser LOG     Status: processing
+[01:40:35.026] Browser LOG     Status: processing
+[01:40:40.010] Browser LOG     Status: processing
+[01:40:45.049] Browser LOG     Status: processing
+[01:40:50.694] Browser LOG     Status: processing
+[01:40:55.021] Browser LOG     Status: processing
+[01:41:00.070] Browser LOG     Status: processing
+[01:41:05.039] Browser LOG     Status: processing
+[01:41:10.039] Browser LOG     Status: processing
+[01:41:17.439] Browser LOG     Status: processing
+[01:41:20.028] Browser LOG     Status: processing
+[01:41:25.042] Browser LOG     Status: processing
+[01:41:30.019] Browser LOG     Status: processing
+[01:41:35.035] Browser LOG     Status: processing
+[01:41:40.377] Browser LOG     Status: processing
+[01:41:45.034] Browser LOG     Status: processing
+[01:41:50.027] Browser LOG     Status: processing
+[01:41:55.036] Browser LOG     Status: processing
+[01:42:00.028] Browser LOG     Status: processing
+[01:42:05.046] Browser LOG     Status: processing
+[01:42:10.045] Browser LOG     Status: processing
+[01:42:15.046] Browser LOG     Status: processing
+[01:42:21.957] Browser LOG     Status: processing
+[01:42:25.026] Browser LOG     Status: done
+[01:42:37.966] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:54.127] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:37.966] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:58.392] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:41.206] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:58.393] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:41.206] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:59.509] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:44.032] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:04:59.510] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:44.034] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:05:34.458] Browser LOG     Status: processing
-[00:05:46.109] Browser LOG     Status: processing
-[00:05:58.127] Browser LOG     Status: processing
-[00:06:10.130] Browser LOG     Status: processing
-[00:06:22.143] Browser LOG     Status: processing
-[00:06:34.130] Browser LOG     Status: processing
-[00:06:46.113] Browser LOG     Status: processing
-[00:06:58.131] Browser LOG     Status: processing
-[00:07:10.128] Browser LOG     Status: processing
-[00:07:22.134] Browser LOG     Status: processing
-[00:07:34.142] Browser LOG     Status: processing
-[00:07:46.134] Browser LOG     Status: processing
-[00:07:58.119] Browser LOG     Status: processing
-[00:08:10.137] Browser LOG     Status: processing
-[00:08:22.156] Browser LOG     Status: processing
-[00:08:34.148] Browser LOG     Status: processing
-[00:08:46.156] Browser LOG     Status: processing
-[00:08:58.514] Browser LOG     Status: processing
-[00:09:10.225] Browser LOG     Status: done
-[00:12:56.579] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:53.361] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:12:56.579] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[01:42:53.361] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:42:54.176] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:42:54.177] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:42:55.964] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:42:55.965] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.

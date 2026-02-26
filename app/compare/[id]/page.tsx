@@ -3,19 +3,15 @@ import { useRef } from "react"
 
 import { useParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import {
   ArrowPathIcon,
   ExclamationTriangleIcon,
   DocumentMagnifyingGlassIcon,
-  ClipboardIcon,
   LightBulbIcon,
   ChatBubbleLeftRightIcon,
-  SparklesIcon,
   MagnifyingGlassIcon,
   FunnelIcon,
   InformationCircleIcon,
-  DocumentArrowDownIcon,
   AdjustmentsHorizontalIcon,
   ArrowsPointingOutIcon,
   ArrowsPointingInIcon,
@@ -90,13 +86,13 @@ function formatDateTime(iso: string) {
 
 function riskBadge(risk?: string | null) {
   const base = "px-3 py-1 rounded-md font-bold";
-  const level = (risk || "LOW").toUpperCase();
+  const level = (risk || "").toUpperCase();
 
   if (level === "HIGH")
     return <span className={`${base} bg-gradient-to-r from-red-500 to-red-600 text-white text-sm shadow-sm`}>HIGH</span>;
   if (level === "MEDIUM")
     return <span className={`${base} bg-gradient-to-r from-amber-500 to-amber-600 text-white text-sm shadow-sm`}>MEDIUM</span>;
-  return <span className={`${base} bg-gradient-to-r from-emerald-500 to-emerald-600 text-white text-sm shadow-sm`}>LOW</span>;
+  return null;
 }
 
 function changeTypeBadge(type: ChangeType) {
@@ -106,56 +102,6 @@ function changeTypeBadge(type: ChangeType) {
   if (type === "REMOVED")
     return <span className={`${base} bg-gradient-to-r from-red-500 to-red-600 text-white text-sm shadow-sm`}>REMOVED</span>;
   return <span className={`${base} bg-gradient-to-r from-amber-500 to-amber-600 text-white text-sm shadow-sm`}>MODIFIED</span>;
-}
-
-async function copyToClipboard(text: string) {
-  try {
-    await navigator.clipboard.writeText(text);
-    return true;
-  } catch {
-    try {
-      const el = document.createElement("textarea");
-      el.value = text;
-      document.body.appendChild(el);
-      el.select();
-      document.execCommand("copy");
-      document.body.removeChild(el);
-      return true;
-    } catch {
-      return false;
-    }
-  }
-}
-
-function CopyButton({ text, label = "คัดลอก", size = "md", variant = "default" }: {
-  text: string;
-  label?: string;
-  size?: "sm" | "md";
-  variant?: "default" | "primary";
-}) {
-  const disabled = !text || text.trim().length === 0;
-  
-  const baseClasses = `
-    inline-flex items-center gap-1 ${size === "sm" ? "px-3 py-1.5 text-sm" : "px-4 py-2 text-base"}
-    rounded-lg font-medium transition-all duration-200
-    ${disabled ? "opacity-50 cursor-not-allowed" : "hover:scale-[1.02] active:scale-[0.98]"}
-  `;
-  
-  const variantClasses = variant === "primary" 
-    ? "bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800 shadow-sm"
-    : "bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 hover:border-gray-400";
-
-  return (
-    <button
-      type="button"
-      disabled={disabled}
-      onClick={async () => await copyToClipboard(text)}
-      className={`${baseClasses} ${variantClasses}`}
-    >
-      <ClipboardIcon className="h-4 w-4" />
-      {label}
-    </button>
-  );
 }
 
 /* ================= TEXT DIFF HELPERS ================= */
@@ -171,7 +117,7 @@ function getHighlightedText(oldText: string, newText: string) {
   
   const oldHighlighted = oldWords.map((word, index) => {
     if (!newWordSet.has(word) && word.trim().length > 0) {
-      return `<span class="bg-red-200 text-red-900 px-1 py-0.5 rounded border border-red-300 font-medium">${word}</span>`;
+      return `<span class="bg-red-200 text-red-900 px-1 py-0.5 rounded border border-red-300 font-medium line-through decoration-red-700 decoration-2">${word}</span>`;
     }
     return word;
   }).join('');
@@ -205,7 +151,7 @@ function DiffView({ oldText, newText }: { oldText: string; newText: string }) {
             return (
               <span
                 key={wordIndex}
-                className="bg-red-200 text-red-900 px-1 py-0.5 rounded border border-red-300 font-medium mx-0.5"
+                className="bg-red-200 text-red-900 px-1 py-0.5 rounded border border-red-300 font-medium line-through decoration-red-700 decoration-2 mx-0.5"
               >
                 {word}
               </span>
@@ -324,7 +270,7 @@ function FullscreenDiffViewer({ detail, onClose }: { detail: ComparisonDetail; o
               return (
                 <span
                   key={`${lineIndex}-${wordIndex}`}
-                  className="bg-red-200 text-red-900 px-1 py-0.5 rounded border border-red-300 font-medium mx-0.5"
+                  className="bg-red-200 text-red-900 px-1 py-0.5 rounded border border-red-300 font-medium line-through decoration-red-700 decoration-2 mx-0.5"
                 >
                   {word}
                 </span>
@@ -374,6 +320,7 @@ function FullscreenDiffViewer({ detail, onClose }: { detail: ComparisonDetail; o
 
   const highlightedOldText = getHighlightedOldText();
   const highlightedNewText = getHighlightedNewText();
+  const currentRiskBadge = riskBadge(currentChange.risk_level);
 
   return (
     <div className="fixed inset-0 z-50 bg-white flex flex-col">
@@ -485,10 +432,12 @@ function FullscreenDiffViewer({ detail, onClose }: { detail: ComparisonDetail; o
               <span className="font-medium">Type:</span>
               {changeTypeBadge(currentChange.change_type)}
             </div>
-            <div className="flex items-center gap-2">
-              <span className="font-medium">Risk:</span>
-              {riskBadge(currentChange.risk_level)}
-            </div>
+            {currentRiskBadge && (
+              <div className="flex items-center gap-2">
+                <span className="font-medium">Risk:</span>
+                {currentRiskBadge}
+              </div>
+            )}
           </div>
           
           <div className="text-xs text-gray-500">
@@ -544,9 +493,327 @@ function ExpandableText({ text, title, maxLength = 300, type = "normal" }: {
   );
 }
 
+type MarkdownTextBlock = {
+  kind: "text";
+  text: string;
+};
+
+type MarkdownTableBlock = {
+  kind: "table";
+  header: string[];
+  rows: string[][];
+};
+
+type MarkdownBlock = MarkdownTextBlock | MarkdownTableBlock;
+
+const MARKDOWN_TABLE_SEPARATOR = /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/;
+
+function parseMarkdownTableRow(line: string) {
+  const trimmed = line.trim().replace(/^\|/, "").replace(/\|$/, "");
+  return trimmed.split("|").map((cell) => cell.trim());
+}
+
+function parseMarkdownBlocks(text: string): MarkdownBlock[] {
+  const lines = text.split(/\r?\n/);
+  const blocks: MarkdownBlock[] = [];
+  let textBuffer: string[] = [];
+
+  const flushText = () => {
+    if (!textBuffer.length) return;
+    const merged = textBuffer.join("\n");
+    if (merged.trim().length > 0) {
+      blocks.push({ kind: "text", text: merged });
+    }
+    textBuffer = [];
+  };
+
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    const next = i + 1 < lines.length ? lines[i + 1] : "";
+
+    if (line.includes("|") && MARKDOWN_TABLE_SEPARATOR.test(next)) {
+      const header = parseMarkdownTableRow(line);
+      const rows: string[][] = [];
+      i += 2;
+
+      while (i < lines.length) {
+        const rowLine = lines[i];
+        if (!rowLine.trim() || !rowLine.includes("|")) break;
+        rows.push(parseMarkdownTableRow(rowLine));
+        i += 1;
+      }
+
+      flushText();
+      if (header.length > 0) {
+        blocks.push({ kind: "table", header, rows });
+      }
+      continue;
+    }
+
+    textBuffer.push(line);
+    i += 1;
+  }
+
+  flushText();
+  return blocks;
+}
+
+function renderInlineMarkdown(text: string) {
+  const nodes: Array<string | JSX.Element> = [];
+  const pattern = /(`[^`]+`)|(\*\*[^*]+\*\*)|(\[[^\]]+\]\((https?:\/\/[^)\s]+)\))|(<https?:\/\/[^>\s]+>)|((?<!\()https?:\/\/[^\s)]+)/g;
+  let lastIndex = 0;
+  let key = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = pattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+
+    const token = match[0];
+    if (token.startsWith("`")) {
+      nodes.push(
+        <code key={`code-${key++}`} className="rounded bg-gray-100 px-1 py-0.5 font-mono text-[0.92em]">
+          {token.slice(1, -1)}
+        </code>,
+      );
+    } else if (token.startsWith("**")) {
+      nodes.push(<strong key={`strong-${key++}`}>{token.slice(2, -2)}</strong>);
+    } else if (token.startsWith("[")) {
+      const labelMatch = token.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)$/);
+      if (labelMatch) {
+        nodes.push(
+          <a
+            key={`link-${key++}`}
+            href={labelMatch[2]}
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-600 underline break-all"
+          >
+            {labelMatch[1]}
+          </a>,
+        );
+      } else {
+        nodes.push(token);
+      }
+    } else if (token.startsWith("<http")) {
+      const href = token.slice(1, -1);
+      nodes.push(
+        <a
+          key={`link-${key++}`}
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-600 underline break-all"
+        >
+          {href}
+        </a>,
+      );
+    } else if (token.startsWith("http")) {
+      nodes.push(
+        <a
+          key={`link-${key++}`}
+          href={token}
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-600 underline break-all"
+        >
+          {token}
+        </a>,
+      );
+    } else {
+      nodes.push(token);
+    }
+
+    lastIndex = pattern.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+
+  return nodes;
+}
+
+function renderMarkdownTextBlock(text: string) {
+  const lines = text.split(/\r?\n/);
+  const elements: JSX.Element[] = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    if (!trimmed) {
+      i += 1;
+      continue;
+    }
+
+    if (trimmed.startsWith("```")) {
+      const codeLines: string[] = [];
+      i += 1;
+      while (i < lines.length && !lines[i].trim().startsWith("```")) {
+        codeLines.push(lines[i]);
+        i += 1;
+      }
+      if (i < lines.length) i += 1;
+      elements.push(
+        <pre key={`pre-${elements.length}`} className="overflow-x-auto rounded-lg bg-gray-900 p-3 text-xs text-gray-100 sm:text-sm">
+          <code>{codeLines.join("\n")}</code>
+        </pre>,
+      );
+      continue;
+    }
+
+    const heading = trimmed.match(/^(#{1,6})\s+(.*)$/);
+    if (heading) {
+      const level = heading[1].length;
+      const content = renderInlineMarkdown(heading[2]);
+      const cls = level <= 2 ? "text-base font-bold" : "text-sm font-semibold";
+      elements.push(
+        <div key={`h-${elements.length}`} className={`${cls} leading-relaxed`}>
+          {content}
+        </div>,
+      );
+      i += 1;
+      continue;
+    }
+
+    if (/^[-*]\s+/.test(trimmed)) {
+      const items: string[] = [];
+      while (i < lines.length && /^[-*]\s+/.test(lines[i].trim())) {
+        items.push(lines[i].trim().replace(/^[-*]\s+/, ""));
+        i += 1;
+      }
+      elements.push(
+        <ul key={`ul-${elements.length}`} className="list-disc pl-5 space-y-1">
+          {items.map((item, idx) => (
+            <li key={`uli-${idx}`}>{renderInlineMarkdown(item)}</li>
+          ))}
+        </ul>,
+      );
+      continue;
+    }
+
+    if (/^\d+\.\s+/.test(trimmed)) {
+      const items: string[] = [];
+      while (i < lines.length && /^\d+\.\s+/.test(lines[i].trim())) {
+        items.push(lines[i].trim().replace(/^\d+\.\s+/, ""));
+        i += 1;
+      }
+      elements.push(
+        <ol key={`ol-${elements.length}`} className="list-decimal pl-5 space-y-1">
+          {items.map((item, idx) => (
+            <li key={`oli-${idx}`}>{renderInlineMarkdown(item)}</li>
+          ))}
+        </ol>,
+      );
+      continue;
+    }
+
+    const paragraph: string[] = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() &&
+      !/^(#{1,6})\s+/.test(lines[i].trim()) &&
+      !/^[-*]\s+/.test(lines[i].trim()) &&
+      !/^\d+\.\s+/.test(lines[i].trim()) &&
+      !lines[i].trim().startsWith("```")
+    ) {
+      paragraph.push(lines[i].trim());
+      i += 1;
+    }
+
+    elements.push(
+      <p key={`p-${elements.length}`} className="leading-relaxed">
+        {renderInlineMarkdown(paragraph.join(" "))}
+      </p>,
+    );
+  }
+
+  return <div className="space-y-2">{elements}</div>;
+}
+
+function ChatMessageContent({ content, role }: { content: string; role: "user" | "assistant" }) {
+  if (!content) return null;
+  if (role === "user") {
+    return <div className="whitespace-pre-wrap leading-relaxed">{content}</div>;
+  }
+
+  const blocks = parseMarkdownBlocks(content);
+
+  return (
+    <div className="space-y-3">
+      {blocks.map((block, blockIndex) => {
+        if (block.kind === "text") {
+          return (
+            <div key={blockIndex}>
+              {renderMarkdownTextBlock(block.text)}
+            </div>
+          );
+        }
+
+        const maxColumns = Math.max(
+          block.header.length,
+          ...block.rows.map((row) => row.length),
+        );
+        const headerCells = Array.from({ length: maxColumns }, (_, colIndex) => block.header[colIndex] ?? "");
+
+        return (
+          <div key={blockIndex} className="overflow-x-auto rounded-lg border border-gray-200">
+            <table className="min-w-full border-collapse text-xs sm:text-sm">
+              <thead className="bg-gray-100">
+                <tr>
+                  {headerCells.map((cell, colIndex) => (
+                    <th
+                      key={`h-${blockIndex}-${colIndex}`}
+                      className="border border-gray-200 px-3 py-2 text-left font-semibold text-gray-700"
+                    >
+                      {cell ? renderInlineMarkdown(cell) : "-"}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="bg-white">
+                {block.rows.length > 0 ? (
+                  block.rows.map((row, rowIndex) => (
+                    <tr key={`r-${blockIndex}-${rowIndex}`} className="odd:bg-gray-50/60">
+                      {headerCells.map((_, colIndex) => (
+                        <td
+                          key={`c-${blockIndex}-${rowIndex}-${colIndex}`}
+                          className="border border-gray-200 px-3 py-2 align-top text-gray-800"
+                        >
+                          {row[colIndex] ? renderInlineMarkdown(row[colIndex]) : ""}
+                        </td>
+                      ))}
+                    </tr>
+                  ))
+                ) : (
+                  <tr>
+                    {headerCells.map((_, colIndex) => (
+                      <td
+                        key={`empty-${blockIndex}-${colIndex}`}
+                        className="border border-gray-200 px-3 py-2 text-gray-400 italic"
+                      >
+                        -
+                      </td>
+                    ))}
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 /* ================= AI CHAT COMPONENT ================= */
 
 function AIChat({ change }: { change: ChangeItem }) {
+  const STATUS_PREFIX = "__STATUS__:"
 
   const [chatOpen, setChatOpen] = useState(false)
 
@@ -557,15 +824,14 @@ function AIChat({ change }: { change: ChangeItem }) {
   const [input, setInput] = useState("")
   const [loading, setLoading] = useState(false)
   const [chatError, setChatError] = useState<string | null>(null)
+  const [assistantStatus, setAssistantStatus] = useState("")
 
   const bottomRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" })
-  }, [messages])
-
+  const scrollRef = useRef<HTMLDivElement>(null)
 
   const sendChat = async () => {
+
+    if (loading) return
 
     const question = input.trim()
     if (!question) return
@@ -573,30 +839,117 @@ function AIChat({ change }: { change: ChangeItem }) {
     setInput("")
     setLoading(true)
     setChatError(null)
+    setAssistantStatus("กำลังวิเคราะห์คำถาม...")
 
-    // user bubble
     setMessages(prev => [...prev, { role: "user", content: question }])
-
-    // ai bubble placeholder
     setMessages(prev => [...prev, { role: "assistant", content: "" }])
 
     try {
+
       const res = await fetch(`${API_BASE_CHAT}/changes/${change.id}/chat`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "text/event-stream",
+        },
+        cache: "no-store",
         body: JSON.stringify({ question }),
       })
 
       if (!res.ok) throw new Error(`Chat failed (${res.status})`)
 
-      const data = await res.json()
-      const answer = normalizeText(data?.answer) || ""
+      const reader = res.body?.getReader()
+      if (!reader) throw new Error("No stream reader")
 
-      setMessages(prev => {
-        const copy = [...prev]
-        copy[copy.length - 1].content = answer
-        return copy
-      })
+      const decoder = new TextDecoder("utf-8")
+
+      let done = false
+      let fullText = ""
+      let buffer = ""
+      let sawSseFrame = false
+      const parseSsePart = (part: string): { eventName: string; payload: string } => {
+        const lines = part.split(/\r?\n/)
+        let eventName = "message"
+        const dataLines: string[] = []
+
+        for (const line of lines) {
+          if (line.startsWith("event:")) {
+            eventName = line.slice(6).trim()
+            continue
+          }
+          if (!line.startsWith("data:")) continue
+          dataLines.push(line.startsWith("data: ") ? line.slice(6) : line.slice(5))
+        }
+
+        return { eventName, payload: dataLines.join("\n") }
+      }
+
+      while (!done) {
+
+        const { value, done: doneReading } = await reader.read()
+        done = doneReading
+
+        const chunkText = decoder.decode(value || new Uint8Array(), { stream: true })
+        buffer += chunkText
+
+        // ⭐ แยก SSE event
+        const parts = buffer.split(/\r?\n\r?\n/)
+        buffer = parts.pop() || ""
+        let appended = false
+
+        for (const part of parts) {
+          const { eventName, payload } = parseSsePart(part)
+          if (!payload) continue
+
+          sawSseFrame = true
+
+          if (eventName === "status" || payload.startsWith(STATUS_PREFIX)) {
+            const message = payload.startsWith(STATUS_PREFIX)
+              ? payload.slice(STATUS_PREFIX.length).trim()
+              : payload.trim()
+            if (message) setAssistantStatus(message)
+            continue
+          }
+
+          fullText += payload
+          appended = true
+        }
+
+        if (!sawSseFrame && chunkText) {
+          fullText += chunkText
+          appended = true
+        }
+
+        if (done && buffer) {
+          if (buffer.includes("data:")) {
+            const { eventName, payload } = parseSsePart(buffer)
+            if (payload) {
+              if (eventName === "status" || payload.startsWith(STATUS_PREFIX)) {
+                const message = payload.startsWith(STATUS_PREFIX)
+                  ? payload.slice(STATUS_PREFIX.length).trim()
+                  : payload.trim()
+                if (message) setAssistantStatus(message)
+              } else {
+                fullText += payload
+                appended = true
+              }
+            }
+          } else if (!sawSseFrame) {
+            fullText += buffer
+            appended = true
+          }
+          buffer = ""
+        }
+
+        // realtime update
+        if (appended) {
+          setMessages(prev => {
+            const copy = [...prev]
+            copy[copy.length - 1].content = fullText
+            return copy
+          })
+        }
+      }
 
     } catch (e: any) {
 
@@ -610,9 +963,9 @@ function AIChat({ change }: { change: ChangeItem }) {
 
     } finally {
       setLoading(false)
+      setAssistantStatus("")
     }
   }
-
 
   return (
     <div className="space-y-4">
@@ -627,7 +980,6 @@ function AIChat({ change }: { change: ChangeItem }) {
                 <InformationCircleIcon className="h-5 w-5 text-white" />
                 <h3 className="text-base font-bold text-white">ความคิดเห็นจาก AI</h3>
               </div>
-              <CopyButton text={normalizeText(change.ai_comment)} size="sm" variant="primary" />
             </div>
           </div>
           <div className="p-4">
@@ -642,7 +994,6 @@ function AIChat({ change }: { change: ChangeItem }) {
                 <LightBulbIcon className="h-5 w-5 text-white" />
                 <h3 className="text-base font-bold text-white">คำแนะนำจาก AI</h3>
               </div>
-              <CopyButton text={normalizeText(change.ai_suggestion)} size="sm" variant="primary" />
             </div>
           </div>
           <div className="p-4">
@@ -651,6 +1002,7 @@ function AIChat({ change }: { change: ChangeItem }) {
         </div>
 
       </div>
+
       {/* ================= CHAT BUBBLE ================= */}
       <div className="rounded-xl border border-purple-200 overflow-hidden bg-gradient-to-br from-purple-50/30 to-white shadow-sm">
 
@@ -667,13 +1019,13 @@ function AIChat({ change }: { change: ChangeItem }) {
           <span className="text-white font-bold">{chatOpen ? "▲" : "▼"}</span>
         </button>
 
-
         {chatOpen && (
           <div className="flex flex-col h-[420px]">
 
-            {/* chat messages */}
-            <div className="flex-1 overflow-auto p-4 space-y-3 bg-gray-50">
-
+            <div
+              ref={scrollRef}
+              className="flex-1 overflow-auto p-4 space-y-3 bg-gray-50"
+            >
               {messages.map((m, i) => (
                 <div
                   key={i}
@@ -682,43 +1034,37 @@ function AIChat({ change }: { change: ChangeItem }) {
                   <div
                     className={`
                       px-4 py-2 rounded-2xl max-w-[75%]
-                      whitespace-pre-wrap text-sm shadow
+                      text-sm shadow
                       ${m.role === "user"
                         ? "bg-blue-600 text-white"
                         : "bg-white border border-gray-200"}
                     `}
                   >
-                    {m.content || (loading && m.role === "assistant" ? "กำลังคิด..." : "")}
+                    <ChatMessageContent
+                      role={m.role}
+                      content={m.content || (loading && m.role === "assistant" ? (assistantStatus || "Thinking...") : "")}
+                    />
                   </div>
                 </div>
               ))}
-
-              <div ref={bottomRef} />
-
             </div>
 
-
-            {/* error */}
             {chatError && (
               <div className="px-4 pb-2 text-sm text-red-600">
                 {chatError}
               </div>
             )}
 
-
-            {/* input */}
             <div className="border-t p-3 flex gap-2 bg-white">
-
               <input
                 value={input}
                 onChange={e => setInput(e.target.value)}
                 placeholder="พิมพ์คำถาม..."
-                className="flex-1 border rounded-lg px-3 py-2 text-sm"
+                className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm text-gray-900 placeholder:text-gray-500 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 onKeyDown={e => {
                   if (e.key === "Enter") sendChat()
                 }}
               />
-
               <button
                 onClick={sendChat}
                 disabled={loading}
@@ -726,7 +1072,6 @@ function AIChat({ change }: { change: ChangeItem }) {
               >
                 ส่ง
               </button>
-
             </div>
 
           </div>
@@ -749,7 +1094,6 @@ export default function CompareReportPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [riskFilter, setRiskFilter] = useState<"ALL" | RiskLevel>("ALL");
   const [typeFilter, setTypeFilter] = useState<"ALL" | ChangeType>("ALL");
-  const [annotating, setAnnotating] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [showFullscreen, setShowFullscreen] = useState(false);
   const [fullscreenChangeIndex, setFullscreenChangeIndex] = useState(0);
@@ -770,20 +1114,6 @@ export default function CompareReportPage() {
       setError(err?.message || "โหลดข้อมูลไม่สำเร็จ");
     } finally {
       setLoading(false);
-    }
-  };
-
-  const handleAnnotate = async () => {
-    if (!id) return;
-    setAnnotating(true);
-    try {
-      const res = await fetch(`${API_BASE}/comparisons/${id}/annotate`, { method: "POST" });
-      if (!res.ok) throw new Error(`Annotation failed (${res.status})`);
-      await loadDetail();
-    } catch (err: any) {
-      console.error("Annotation error:", err);
-    } finally {
-      setAnnotating(false);
     }
   };
 
@@ -827,16 +1157,6 @@ export default function CompareReportPage() {
     });
   }, [detail?.changes, searchQuery, riskFilter, typeFilter]);
 
-  const riskSummary = useMemo(() => {
-    const changes = detail?.changes || [];
-    return {
-      HIGH: changes.filter(c => c.risk_level === "HIGH").length,
-      MEDIUM: changes.filter(c => c.risk_level === "MEDIUM").length,
-      LOW: changes.filter(c => c.risk_level === "LOW").length,
-      TOTAL: changes.length,
-    };
-  }, [detail?.changes]);
-
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -865,12 +1185,6 @@ export default function CompareReportPage() {
       </div>
     );
   }
-
-  const formattedSummaryText = detail.summary_text ? detail.summary_text.split('\n').map((line, index) => (
-    <div key={index} className="mb-3 last:mb-0">
-      {line}
-    </div>
-  )) : null;
 
   return (
     <>
@@ -925,26 +1239,7 @@ export default function CompareReportPage() {
                   </div>
                   
                   <div className="flex flex-col sm:flex-row gap-2">
-                    <Link
-                      href={`/reports/generate?comparisonId=${detail.id}`}
-                      className="flex items-center gap-2 px-4 py-2.5 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-lg hover:from-green-700 hover:to-emerald-700 font-medium shadow-sm"
-                    >
-                      <DocumentArrowDownIcon className="h-4 w-4" />
-                      สร้างรายงาน
-                    </Link>
                     
-                    <button
-                      onClick={handleAnnotate}
-                      disabled={annotating}
-                      className="flex items-center gap-2 px-4 py-2.5 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-lg hover:from-purple-700 hover:to-purple-800 disabled:opacity-70 font-medium shadow-sm"
-                    >
-                      {annotating ? (
-                        <ArrowPathIcon className="h-4 w-4 animate-spin" />
-                      ) : (
-                        <SparklesIcon className="h-4 w-4" />
-                      )}
-                      {annotating ? "กำลังวิเคราะห์..." : "AI วิเคราะห์ใหม่"}
-                    </button>
                     
                     <button
                       onClick={() => setShowFilters(!showFilters)}
@@ -957,27 +1252,6 @@ export default function CompareReportPage() {
                 </div>
               </div>
 
-              {/* Risk Summary */}
-              <div className="mt-6 pt-6 border-t border-gray-200">
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                  <div className="bg-gradient-to-br from-red-50 to-white border border-red-200 rounded-xl p-4 shadow-sm">
-                    <div className="text-2xl font-bold text-red-700">{riskSummary.HIGH}</div>
-                    <div className="text-sm font-medium text-red-600">HIGH RISK</div>
-                  </div>
-                  <div className="bg-gradient-to-br from-amber-50 to-white border border-amber-200 rounded-xl p-4 shadow-sm">
-                    <div className="text-2xl font-bold text-amber-700">{riskSummary.MEDIUM}</div>
-                    <div className="text-sm font-medium text-amber-600">MEDIUM RISK</div>
-                  </div>
-                  <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-200 rounded-xl p-4 shadow-sm">
-                    <div className="text-2xl font-bold text-emerald-700">{riskSummary.LOW}</div>
-                    <div className="text-sm font-medium text-emerald-600">LOW RISK</div>
-                  </div>
-                  <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-200 rounded-xl p-4 shadow-sm">
-                    <div className="text-2xl font-bold text-blue-700">{riskSummary.TOTAL}</div>
-                    <div className="text-sm font-medium text-blue-600">TOTAL CHANGES</div>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* AI Summary */}
@@ -988,7 +1262,7 @@ export default function CompareReportPage() {
                   <h2 className="text-xl font-bold text-gray-900">สรุปผลการวิเคราะห์</h2>
                 </div>
                 <div className="text-base text-gray-800 leading-relaxed bg-white/50 border border-blue-100 rounded-xl p-4">
-                  {formattedSummaryText}
+                  <ChatMessageContent role="assistant" content={detail.summary_text} />
                 </div>
               </div>
             )}
@@ -1119,20 +1393,6 @@ export default function CompareReportPage() {
                       <AIChat change={change} />
                     </div>
 
-                    {/* Quick Copy */}
-                    <div className="border-t border-gray-200 pt-4">
-                      <CopyButton
-                        text={`[${change.section_label || "-"}]\n` +
-                          `ประเภท: ${change.change_type} | ความเสี่ยง: ${change.risk_level}\n\n` +
-                          `OLD:\n${change.old_text || "-"}\n\n` +
-                          `NEW:\n${change.new_text || "-"}\n\n` +
-                          `AI COMMENT:\n${change.ai_comment || "-"}\n\n` +
-                          `AI SUGGESTION:\n${change.ai_suggestion || "-"}`
-                        }
-                        label="คัดลอกข้อมูลทั้งหมด"
-                        variant="primary"
-                      />
-                    </div>
                   </div>
                 </div>
               ))
@@ -1143,3 +1403,4 @@ export default function CompareReportPage() {
     </>
   );
 }
+

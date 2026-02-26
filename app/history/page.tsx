@@ -49,6 +49,7 @@ type ComparisonItem = {
   contract_impact_score?: number;
   stakeholder_impact_score?: number;
   architecture_impact_score?: number;
+  risk_comment?: string;
 };
 
 const API_BASE_V2 = process.env.NEXT_PUBLIC_HISTORY_API ?? "/api/history";
@@ -453,7 +454,7 @@ export default function HistoryPage() {
           }
         }}
       >
-        <div className="bg-white rounded-2xl w-full max-w-3xl shadow-2xl overflow-hidden border border-gray-200">
+        <div className="bg-white rounded-2xl w-full max-w-5xl shadow-2xl overflow-hidden border border-gray-200">
           {/* Header */}
           <div className="px-8 py-6 border-b border-gray-100 bg-gradient-to-r from-blue-50 to-indigo-50">
             <div className="flex items-center justify-between">
@@ -481,42 +482,66 @@ export default function HistoryPage() {
             </div>
           </div>
 
-          {/* Graph - Using real data only */}
-          <div className="p-8 h-[400px]">
-            <ResponsiveContainer width="100%" height="100%">
-              <RadarChart data={spiderData}>
-                <PolarGrid stroke="#d1d5db" strokeDasharray="3 3" />
-                <PolarAngleAxis
-                  dataKey="metric"
-                  tick={{ fill: "#1f2937", fontSize: 14, fontWeight: '500' }}
-                />
-                <PolarRadiusAxis
-                  domain={[0, 100]}
-                  angle={30}
-                  tick={{ fill: "#4b5563", fontSize: 11 }}
-                />
-                <Radar
-                  name="คะแนนความเสี่ยง"
-                  dataKey="value"
-                  stroke="#2563eb"
-                  fill="#3b82f6"
-                  fillOpacity={0.5}
-                  strokeWidth={2}
-                />
-                <Tooltip 
-                  contentStyle={{ 
-                    borderRadius: '8px', 
-                    border: '1px solid #e5e7eb',
-                    backgroundColor: '#ffffff',
-                    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
-                    padding: '12px',
-                  }}
-                  formatter={(value) => [`${value} คะแนน`, 'ความเสี่ยง']}
-                  labelFormatter={(label) => `หมวดหมู่: ${label}`}
-                />
-              </RadarChart>
-            </ResponsiveContainer>
-          </div>
+          {/* Graph + Comment */}
+            <div className="p-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+
+    {/* LEFT → Radar Graph */}
+    <div className="h-[400px]">
+      <ResponsiveContainer width="100%" height="100%">
+        <RadarChart data={spiderData}>
+          <PolarGrid stroke="#d1d5db" strokeDasharray="3 3" />
+          <PolarAngleAxis
+            dataKey="metric"
+            tick={{ fill: "#1f2937", fontSize: 14, fontWeight: '500' }}
+          />
+          <PolarRadiusAxis
+            domain={[0, 100]}
+            angle={30}
+            tick={{ fill: "#4b5563", fontSize: 11 }}
+          />
+          <Radar
+            name="คะแนนความเสี่ยง"
+            dataKey="value"
+            stroke="#2563eb"
+            fill="#3b82f6"
+            fillOpacity={0.5}
+            strokeWidth={2}
+          />
+          <Tooltip
+            contentStyle={{
+              borderRadius: '8px',
+              border: '1px solid #e5e7eb',
+              backgroundColor: '#ffffff',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+              padding: '12px',
+            }}
+            formatter={(value) => [`${value} คะแนน`, 'ความเสี่ยง']}
+            labelFormatter={(label) => `หมวดหมู่: ${label}`}
+          />
+        </RadarChart>
+      </ResponsiveContainer>
+    </div>
+
+    {/* RIGHT → Risk Comment */}
+    <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 flex flex-col">
+      <h4 className="text-sm font-semibold text-gray-900 mb-3">
+        คำอธิบายความเสี่ยง
+      </h4>
+
+      {item.risk_comment ? (
+        <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
+          {item.risk_comment}
+        </p>
+      ) : (
+        <div className="text-sm text-gray-400 italic">
+          ไม่มีคำอธิบายความเสี่ยง
+        </div>
+      )}
+    </div>
+
+  </div>
+</div>
 
           {/* Footer */}
           <div className="px-8 py-6 border-t border-gray-100 bg-gradient-to-r from-gray-50 to-white">

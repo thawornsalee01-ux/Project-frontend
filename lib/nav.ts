@@ -12,7 +12,6 @@ export const NAV = [
       { label: "Dashboard", href: "/dashboard", icon: Squares2X2Icon },
       { label: "Compare", href: "/", icon: ArrowsRightLeftIcon },
       { label: "History", href: "/history", icon: ClockIcon },
-      { label: "Reports", href: "/reports", icon: DocumentChartBarIcon },
     ],
   },
 ] as const;

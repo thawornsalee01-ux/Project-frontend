@@ -4,6 +4,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
+import { MarkdownContent } from "../components/MarkdownContent";
 import {
   DocumentMagnifyingGlassIcon,
   CloudArrowUpIcon,
@@ -115,6 +116,10 @@ export default function Home() {
   const [result, setResult] = useState<CompareResult | null>(null);
   const [jobId, setJobId] = useState<string | null>(null);
   const [pollingActive, setPollingActive] = useState(false);
+  const [progress, setProgress] = useState(0);
+  const [currentStep, setCurrentStep] = useState("");
+  const [logs, setLogs] = useState<string[]>([]);
+  const logRef = React.useRef<HTMLDivElement>(null);
 
   
   // States for continue mode
@@ -129,6 +134,12 @@ export default function Home() {
       loadBaseComparison(continueId);
     }
   }, [continueId]);
+
+  useEffect(() => {
+  if (logRef.current) {
+    logRef.current.scrollTop = logRef.current.scrollHeight;
+  }
+}, [logs]);
 
   const loadBaseComparison = async (id: string) => {
     setLoadingBase(true);
@@ -204,6 +215,10 @@ export default function Home() {
   formData.append("file_v2", fileV2!);
 }
 
+    setProgress(0);
+    setCurrentStep("");
+    setLogs([]);
+
     setLoading(true);
 try {
   const endpoint = isContinueMode
@@ -225,8 +240,7 @@ try {
   setJobId(job_id);
   setPollingActive(true);
 
-  // --------- 2) เริ่ม Polling ทุก 12 วินาที ---------
-  // --------- 2) เริ่ม Polling ทุก 12 วินาที ---------
+
 const interval = setInterval(async () => {
   try {
     // ===== แยก URL ตามโหมด (ตรง Swagger) =====
@@ -240,10 +254,14 @@ const interval = setInterval(async () => {
 
     const statusRes = await fetch(statusUrl);
     const statusData = await statusRes.json();
+    setProgress(statusData.progress ?? 0);
+    setCurrentStep(statusData.current_step ?? "");
+    setLogs(statusData.logs ?? []);
 
     console.log("Status:", statusData.status);
 
     if (statusData.status === "done") {
+      setProgress(100);
       clearInterval(interval);
       setPollingActive(false);
 
@@ -271,7 +289,7 @@ const interval = setInterval(async () => {
     setLoading(false);
     setError(err?.message || "เกิดข้อผิดพลาดระหว่างรอผลลัพธ์");
   }
-}, 12000);
+}, 5000);
 
 
 } catch (err: any) {
@@ -685,15 +703,15 @@ const interval = setInterval(async () => {
                   }}
                 >
                   {loading ? (
-                    <>
-                      <ArrowPathIcon className="h-4 w-4 animate-spin" />
-                      {pollingActive ? "กำลังประมวลผล (รอผลลัพธ์)..." : "กำลังส่งงาน..."}
-                    </>
+                  <>
+                  <ArrowPathIcon className="h-4 w-4 animate-spin" />
+                  {currentStep || "เริ่มประมวลผล..."}
+                  </>
                   ) : (
-                    <>
-                      {isContinueMode ? "เริ่มเปรียบเทียบกับเวอร์ชันใหม่" : "เริ่มเปรียบเทียบ"}
-                      <ArrowRightIcon className="h-4 w-4" />
-                    </>
+                  <>
+                  {isContinueMode ? "เริ่มเปรียบเทียบกับเวอร์ชันใหม่" : "เริ่มเปรียบเทียบ"}
+                  <ArrowRightIcon className="h-4 w-4" />
+                  </>
                   )}
                 </button>
 
@@ -796,7 +814,9 @@ const interval = setInterval(async () => {
                 <div className="mb-6">
                   <h4 className="text-sm font-semibold mb-3" style={{ color: COLORS.dark }}>สรุปผลการวิเคราะห์</h4>
                   <div className="rounded-lg p-4" style={{ backgroundColor: COLORS.background }}>
-                    <p className="whitespace-pre-line" style={{ color: COLORS.dark }}>{result.summary_text}</p>
+                    <div style={{ color: COLORS.dark }}>
+                      <MarkdownContent content={result.summary_text} />
+                    </div>
                   </div>
                 </div>
 

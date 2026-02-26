@@ -307,7 +307,7 @@ function HistoryPage() {
                         className: "h-2 w-2 rounded-full bg-white animate-pulse"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 365,
+                        lineNumber: 366,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -315,7 +315,7 @@ function HistoryPage() {
                         children: "ความเสี่ยงสูง"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 366,
+                        lineNumber: 367,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,19 +326,19 @@ function HistoryPage() {
                                 className: "absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-900 rotate-45"
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 369,
+                                lineNumber: 370,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 367,
+                        lineNumber: 368,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/history/page.tsx",
-                lineNumber: 359,
+                lineNumber: 360,
                 columnNumber: 9
             }, this);
         }
@@ -353,7 +353,7 @@ function HistoryPage() {
                         className: "h-2 w-2 rounded-full bg-white"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 382,
+                        lineNumber: 383,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -361,7 +361,7 @@ function HistoryPage() {
                         children: "ความเสี่ยงกลาง"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 383,
+                        lineNumber: 384,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -372,19 +372,19 @@ function HistoryPage() {
                                 className: "absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-900 rotate-45"
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 386,
+                                lineNumber: 387,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 384,
+                        lineNumber: 385,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/history/page.tsx",
-                lineNumber: 376,
+                lineNumber: 377,
                 columnNumber: 9
             }, this);
         }
@@ -399,7 +399,7 @@ function HistoryPage() {
                         className: "h-2 w-2 rounded-full bg-white"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 399,
+                        lineNumber: 400,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -407,7 +407,7 @@ function HistoryPage() {
                         children: "ความเสี่ยงต่ำ"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 400,
+                        lineNumber: 401,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -418,19 +418,19 @@ function HistoryPage() {
                                 className: "absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-900 rotate-45"
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 403,
+                                lineNumber: 404,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 401,
+                        lineNumber: 402,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/history/page.tsx",
-                lineNumber: 393,
+                lineNumber: 394,
                 columnNumber: 9
             }, this);
         }
@@ -444,7 +444,7 @@ function HistoryPage() {
                     className: "h-2 w-2 rounded-full bg-white"
                 }, void 0, false, {
                     fileName: "[project]/app/history/page.tsx",
-                    lineNumber: 415,
+                    lineNumber: 416,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -452,7 +452,7 @@ function HistoryPage() {
                     children: "ไม่ระบุความเสี่ยง"
                 }, void 0, false, {
                     fileName: "[project]/app/history/page.tsx",
-                    lineNumber: 416,
+                    lineNumber: 417,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -463,19 +463,19 @@ function HistoryPage() {
                             className: "absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-gray-900 rotate-45"
                         }, void 0, false, {
                             fileName: "[project]/app/history/page.tsx",
-                            lineNumber: 419,
+                            lineNumber: 420,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/history/page.tsx",
-                    lineNumber: 417,
+                    lineNumber: 418,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/history/page.tsx",
-            lineNumber: 409,
+            lineNumber: 410,
             columnNumber: 7
         }, this);
     };
@@ -533,7 +533,7 @@ function HistoryPage() {
                 }
             },
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-white rounded-2xl w-full max-w-3xl shadow-2xl overflow-hidden border border-gray-200",
+                className: "bg-white rounded-2xl w-full max-w-5xl shadow-2xl overflow-hidden border border-gray-200",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "px-8 py-6 border-b border-gray-100 bg-gradient-to-r from-blue-50 to-indigo-50",
@@ -549,12 +549,12 @@ function HistoryPage() {
                                                 className: "h-6 w-6 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 462,
+                                                lineNumber: 463,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 461,
+                                            lineNumber: 462,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -564,7 +564,7 @@ function HistoryPage() {
                                                     children: "กราฟวิเคราะห์ความเสี่ยง"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 465,
+                                                    lineNumber: 466,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -575,7 +575,7 @@ function HistoryPage() {
                                                             children: item.document_name
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 469,
+                                                            lineNumber: 470,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -583,7 +583,7 @@ function HistoryPage() {
                                                             children: "•"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 470,
+                                                            lineNumber: 471,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -594,25 +594,25 @@ function HistoryPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 471,
+                                                            lineNumber: 472,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 468,
+                                                    lineNumber: 469,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 464,
+                                            lineNumber: 465,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 460,
+                                    lineNumber: 461,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -622,113 +622,161 @@ function HistoryPage() {
                                         className: "h-5 w-5 text-gray-700"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 479,
+                                        lineNumber: 480,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 475,
+                                    lineNumber: 476,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/history/page.tsx",
-                            lineNumber: 459,
+                            lineNumber: 460,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 458,
+                        lineNumber: 459,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "p-8 h-[400px]",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
-                            width: "100%",
-                            height: "100%",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$RadarChart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RadarChart"], {
-                                data: spiderData,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarGrid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarGrid"], {
-                                        stroke: "#d1d5db",
-                                        strokeDasharray: "3 3"
+                        className: "p-8",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-[400px]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
+                                        width: "100%",
+                                        height: "100%",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$RadarChart$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RadarChart"], {
+                                            data: spiderData,
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarGrid$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarGrid"], {
+                                                    stroke: "#d1d5db",
+                                                    strokeDasharray: "3 3"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/history/page.tsx",
+                                                    lineNumber: 493,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarAngleAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarAngleAxis"], {
+                                                    dataKey: "metric",
+                                                    tick: {
+                                                        fill: "#1f2937",
+                                                        fontSize: 14,
+                                                        fontWeight: '500'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/history/page.tsx",
+                                                    lineNumber: 494,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarRadiusAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarRadiusAxis"], {
+                                                    domain: [
+                                                        0,
+                                                        100
+                                                    ],
+                                                    angle: 30,
+                                                    tick: {
+                                                        fill: "#4b5563",
+                                                        fontSize: 11
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/history/page.tsx",
+                                                    lineNumber: 498,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$Radar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Radar"], {
+                                                    name: "คะแนนความเสี่ยง",
+                                                    dataKey: "value",
+                                                    stroke: "#2563eb",
+                                                    fill: "#3b82f6",
+                                                    fillOpacity: 0.5,
+                                                    strokeWidth: 2
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/history/page.tsx",
+                                                    lineNumber: 503,
+                                                    columnNumber: 11
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
+                                                    contentStyle: {
+                                                        borderRadius: '8px',
+                                                        border: '1px solid #e5e7eb',
+                                                        backgroundColor: '#ffffff',
+                                                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+                                                        padding: '12px'
+                                                    },
+                                                    formatter: (value)=>[
+                                                            `${value} คะแนน`,
+                                                            'ความเสี่ยง'
+                                                        ],
+                                                    labelFormatter: (label)=>`หมวดหมู่: ${label}`
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/history/page.tsx",
+                                                    lineNumber: 511,
+                                                    columnNumber: 11
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/history/page.tsx",
+                                            lineNumber: 492,
+                                            columnNumber: 9
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 488,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarAngleAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarAngleAxis"], {
-                                        dataKey: "metric",
-                                        tick: {
-                                            fill: "#1f2937",
-                                            fontSize: 14,
-                                            fontWeight: '500'
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 489,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarRadiusAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarRadiusAxis"], {
-                                        domain: [
-                                            0,
-                                            100
-                                        ],
-                                        angle: 30,
-                                        tick: {
-                                            fill: "#4b5563",
-                                            fontSize: 11
-                                        }
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 493,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$Radar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Radar"], {
-                                        name: "คะแนนความเสี่ยง",
-                                        dataKey: "value",
-                                        stroke: "#2563eb",
-                                        fill: "#3b82f6",
-                                        fillOpacity: 0.5,
-                                        strokeWidth: 2
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 498,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
-                                        contentStyle: {
-                                            borderRadius: '8px',
-                                            border: '1px solid #e5e7eb',
-                                            backgroundColor: '#ffffff',
-                                            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
-                                            padding: '12px'
-                                        },
-                                        formatter: (value)=>[
-                                                `${value} คะแนน`,
-                                                'ความเสี่ยง'
-                                            ],
-                                        labelFormatter: (label)=>`หมวดหมู่: ${label}`
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 506,
-                                        columnNumber: 17
+                                        lineNumber: 491,
+                                        columnNumber: 7
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 487,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
+                                }, void 0, false, {
+                                    fileName: "[project]/app/history/page.tsx",
+                                    lineNumber: 490,
+                                    columnNumber: 5
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-gray-50 border border-gray-200 rounded-xl p-5 flex flex-col",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "text-sm font-semibold text-gray-900 mb-3",
+                                            children: "คำอธิบายความเสี่ยง"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/history/page.tsx",
+                                            lineNumber: 528,
+                                            columnNumber: 7
+                                        }, this),
+                                        item.risk_comment ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-700 leading-relaxed whitespace-pre-line",
+                                            children: item.risk_comment
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/history/page.tsx",
+                                            lineNumber: 533,
+                                            columnNumber: 9
+                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "text-sm text-gray-400 italic",
+                                            children: "ไม่มีคำอธิบายความเสี่ยง"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/history/page.tsx",
+                                            lineNumber: 537,
+                                            columnNumber: 9
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/history/page.tsx",
+                                    lineNumber: 527,
+                                    columnNumber: 5
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/app/history/page.tsx",
-                            lineNumber: 486,
-                            columnNumber: 13
+                            lineNumber: 487,
+                            columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 485,
-                        columnNumber: 11
+                        lineNumber: 486,
+                        columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "px-8 py-6 border-t border-gray-100 bg-gradient-to-r from-gray-50 to-white",
@@ -743,7 +791,7 @@ function HistoryPage() {
                                             children: item.overall_risk_level === 'HIGH' ? 'ความเสี่ยงสูง' : item.overall_risk_level === 'MEDIUM' ? 'ความเสี่ยงกลาง' : item.overall_risk_level === 'LOW' ? 'ความเสี่ยงต่ำ' : 'ไม่ระบุ'
                                         }, void 0, false, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 525,
+                                            lineNumber: 550,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -755,13 +803,13 @@ function HistoryPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 543,
+                                            lineNumber: 568,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 524,
+                                    lineNumber: 549,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -775,14 +823,14 @@ function HistoryPage() {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 552,
+                                                    lineNumber: 577,
                                                     columnNumber: 19
                                                 }, this),
                                                 "ดูรายงาน"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 548,
+                                            lineNumber: 573,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -794,48 +842,48 @@ function HistoryPage() {
                                                     className: "h-4 w-4 animate-spin"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 561,
+                                                    lineNumber: 586,
                                                     columnNumber: 21
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ArrowRightCircleIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRightCircleIcon$3e$__["ArrowRightCircleIcon"], {
                                                     className: "h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 563,
+                                                    lineNumber: 588,
                                                     columnNumber: 21
                                                 }, this),
                                                 "เทียบต่อ"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 555,
+                                            lineNumber: 580,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 547,
+                                    lineNumber: 572,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/history/page.tsx",
-                            lineNumber: 523,
+                            lineNumber: 548,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 522,
+                        lineNumber: 547,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/history/page.tsx",
-                lineNumber: 456,
+                lineNumber: 457,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/history/page.tsx",
-            lineNumber: 448,
+            lineNumber: 449,
             columnNumber: 7
         }, this);
     };
@@ -894,7 +942,7 @@ function HistoryPage() {
                                 children: "Hovering Risk Analysis"
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 599,
+                                lineNumber: 624,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -902,13 +950,13 @@ function HistoryPage() {
                                 children: hoveredRiskItem.document_name
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 600,
+                                lineNumber: 625,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 598,
+                        lineNumber: 623,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -923,7 +971,7 @@ function HistoryPage() {
                                         stroke: "#e5e7eb"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 608,
+                                        lineNumber: 633,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$PolarAngleAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PolarAngleAxis"], {
@@ -934,7 +982,7 @@ function HistoryPage() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 609,
+                                        lineNumber: 634,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$Radar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Radar"], {
@@ -946,23 +994,23 @@ function HistoryPage() {
                                         strokeWidth: 1.5
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 613,
+                                        lineNumber: 638,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 607,
+                                lineNumber: 632,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/history/page.tsx",
-                            lineNumber: 606,
+                            lineNumber: 631,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 605,
+                        lineNumber: 630,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -976,7 +1024,7 @@ function HistoryPage() {
                                         children: "Scope"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 627,
+                                        lineNumber: 652,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -987,13 +1035,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 628,
+                                        lineNumber: 653,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 626,
+                                lineNumber: 651,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1004,7 +1052,7 @@ function HistoryPage() {
                                         children: "Timeline"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 631,
+                                        lineNumber: 656,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1015,13 +1063,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 632,
+                                        lineNumber: 657,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 630,
+                                lineNumber: 655,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1032,7 +1080,7 @@ function HistoryPage() {
                                         children: "Cost"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 635,
+                                        lineNumber: 660,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1043,13 +1091,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 636,
+                                        lineNumber: 661,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 634,
+                                lineNumber: 659,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1060,7 +1108,7 @@ function HistoryPage() {
                                         children: "Resource"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 639,
+                                        lineNumber: 664,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1071,13 +1119,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 640,
+                                        lineNumber: 665,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 638,
+                                lineNumber: 663,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1088,7 +1136,7 @@ function HistoryPage() {
                                         children: "Risk"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 643,
+                                        lineNumber: 668,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1099,13 +1147,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 644,
+                                        lineNumber: 669,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 642,
+                                lineNumber: 667,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1116,7 +1164,7 @@ function HistoryPage() {
                                         children: "Contract"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 647,
+                                        lineNumber: 672,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1127,13 +1175,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 648,
+                                        lineNumber: 673,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 646,
+                                lineNumber: 671,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1144,7 +1192,7 @@ function HistoryPage() {
                                         children: "Stakeholder"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 651,
+                                        lineNumber: 676,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1155,13 +1203,13 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 652,
+                                        lineNumber: 677,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 650,
+                                lineNumber: 675,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1172,7 +1220,7 @@ function HistoryPage() {
                                         children: "Architecture"
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 655,
+                                        lineNumber: 680,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1183,37 +1231,37 @@ function HistoryPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 656,
+                                        lineNumber: 681,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 654,
+                                lineNumber: 679,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 625,
+                        lineNumber: 650,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -top-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white border-t border-l border-gray-200 rotate-45"
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 660,
+                        lineNumber: 685,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/history/page.tsx",
-                lineNumber: 597,
+                lineNumber: 622,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/history/page.tsx",
-            lineNumber: 591,
+            lineNumber: 616,
             columnNumber: 7
         }, this);
     };
@@ -1242,14 +1290,14 @@ function HistoryPage() {
                                     children: "หน้าแรก"
                                 }, void 0, false, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 682,
+                                    lineNumber: 707,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ChevronRightIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRightIcon$3e$__["ChevronRightIcon"], {
                                     className: "h-3 w-3 text-gray-500"
                                 }, void 0, false, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 685,
+                                    lineNumber: 710,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1257,18 +1305,18 @@ function HistoryPage() {
                                     children: "ประวัติการเปรียบเทียบ"
                                 }, void 0, false, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 686,
+                                    lineNumber: 711,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/history/page.tsx",
-                            lineNumber: 681,
+                            lineNumber: 706,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 680,
+                        lineNumber: 705,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1287,12 +1335,12 @@ function HistoryPage() {
                                                         className: "h-7 w-7 text-white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 696,
+                                                        lineNumber: 721,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 695,
+                                                    lineNumber: 720,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1302,7 +1350,7 @@ function HistoryPage() {
                                                             children: "ประวัติการเปรียบเทียบเอกสาร"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 699,
+                                                            lineNumber: 724,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1310,24 +1358,24 @@ function HistoryPage() {
                                                             children: "จัดการและติดตามการเปรียบเทียบเอกสารทั้งหมดของคุณ"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 702,
+                                                            lineNumber: 727,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 698,
+                                                    lineNumber: 723,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 694,
+                                            lineNumber: 719,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 693,
+                                        lineNumber: 718,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1341,14 +1389,14 @@ function HistoryPage() {
                                                         className: "h-5 w-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 714,
+                                                        lineNumber: 739,
                                                         columnNumber: 17
                                                     }, this),
                                                     "เปรียบเทียบใหม่"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 710,
+                                                lineNumber: 735,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1359,24 +1407,24 @@ function HistoryPage() {
                                                     className: `h-5 w-5 text-gray-700 ${loading ? 'animate-spin' : ''}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 722,
+                                                    lineNumber: 747,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 717,
+                                                lineNumber: 742,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 709,
+                                        lineNumber: 734,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 692,
+                                lineNumber: 717,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1393,7 +1441,7 @@ function HistoryPage() {
                                                         children: "เอกสารทั้งหมด"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 732,
+                                                        lineNumber: 757,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1401,7 +1449,7 @@ function HistoryPage() {
                                                         children: stats.total
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 733,
+                                                        lineNumber: 758,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1412,13 +1460,13 @@ function HistoryPage() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 734,
+                                                        lineNumber: 759,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 731,
+                                                lineNumber: 756,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1427,34 +1475,34 @@ function HistoryPage() {
                                                     className: "h-5 w-5 text-blue-700"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 739,
+                                                    lineNumber: 764,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 738,
+                                                lineNumber: 763,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 730,
+                                        lineNumber: 755,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 729,
+                                    lineNumber: 754,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 728,
+                                lineNumber: 753,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 691,
+                        lineNumber: 716,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1473,20 +1521,20 @@ function HistoryPage() {
                                                     children: "ตัวกรองข้อมูล"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 752,
+                                                    lineNumber: 777,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$FunnelIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FunnelIcon$3e$__["FunnelIcon"], {
                                                     className: "h-5 w-5 text-gray-600"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 753,
+                                                    lineNumber: 778,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 751,
+                                            lineNumber: 776,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1499,7 +1547,7 @@ function HistoryPage() {
                                                             children: "ค้นหาเอกสาร"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 759,
+                                                            lineNumber: 784,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1513,26 +1561,26 @@ function HistoryPage() {
                                                                     className: "w-full pl-10 pr-4 py-2.5 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-50 text-gray-900 font-medium"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 763,
+                                                                    lineNumber: 788,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$MagnifyingGlassIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MagnifyingGlassIcon$3e$__["MagnifyingGlassIcon"], {
                                                                     className: "absolute left-3 top-3 h-5 w-5 text-gray-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 770,
+                                                                    lineNumber: 795,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 762,
+                                                            lineNumber: 787,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 758,
+                                                    lineNumber: 783,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1542,7 +1590,7 @@ function HistoryPage() {
                                                             children: "ระดับความเสี่ยง"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 776,
+                                                            lineNumber: 801,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1579,7 +1627,7 @@ function HistoryPage() {
                                                                                     className: `h-3 w-3 rounded-full ${option.color}`
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                                    lineNumber: 796,
+                                                                                    lineNumber: 821,
                                                                                     columnNumber: 27
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1587,37 +1635,37 @@ function HistoryPage() {
                                                                                     children: option.label
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                                    lineNumber: 797,
+                                                                                    lineNumber: 822,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 795,
+                                                                            lineNumber: 820,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         filterRisk === option.value && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CheckIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckIcon$3e$__["CheckIcon"], {
                                                                             className: "h-4 w-4 text-blue-700"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 800,
+                                                                            lineNumber: 825,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, option.value, true, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 786,
+                                                                    lineNumber: 811,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 779,
+                                                            lineNumber: 804,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 775,
+                                                    lineNumber: 800,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1627,7 +1675,7 @@ function HistoryPage() {
                                                             children: "ช่วงเวลา"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 809,
+                                                            lineNumber: 834,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1658,31 +1706,31 @@ function HistoryPage() {
                                                                             children: option.label
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 828,
+                                                                            lineNumber: 853,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         filterDateRange === option.value && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$CheckIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckIcon$3e$__["CheckIcon"], {
                                                                             className: "h-4 w-4 text-blue-700"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 830,
+                                                                            lineNumber: 855,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, option.value, true, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 819,
+                                                                    lineNumber: 844,
                                                                     columnNumber: 23
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 812,
+                                                            lineNumber: 837,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 808,
+                                                    lineNumber: 833,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1698,7 +1746,7 @@ function HistoryPage() {
                                                                         children: "พบทั้งหมด"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 841,
+                                                                        lineNumber: 866,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1706,13 +1754,13 @@ function HistoryPage() {
                                                                         children: filteredAndSortedItems.length
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 842,
+                                                                        lineNumber: 867,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 840,
+                                                                lineNumber: 865,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1723,7 +1771,7 @@ function HistoryPage() {
                                                                         children: "จากทั้งหมด"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 845,
+                                                                        lineNumber: 870,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1731,24 +1779,24 @@ function HistoryPage() {
                                                                         children: items.length
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 846,
+                                                                        lineNumber: 871,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 844,
+                                                                lineNumber: 869,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 839,
+                                                        lineNumber: 864,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 838,
+                                                    lineNumber: 863,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1763,14 +1811,14 @@ function HistoryPage() {
                                                                     className: `h-4 w-4 ${loading ? "animate-spin" : ""}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 858,
+                                                                    lineNumber: 883,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "รีเฟรชข้อมูล"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 853,
+                                                            lineNumber: 878,
                                                             columnNumber: 19
                                                         }, this),
                                                         (searchTerm || filterRisk !== "ALL" || filterDateRange !== "ALL") && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1781,37 +1829,37 @@ function HistoryPage() {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 866,
+                                                                    lineNumber: 891,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "ล้างตัวกรองทั้งหมด"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 862,
+                                                            lineNumber: 887,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 852,
+                                                    lineNumber: 877,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 756,
+                                            lineNumber: 781,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/history/page.tsx",
-                                    lineNumber: 750,
+                                    lineNumber: 775,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 749,
+                                lineNumber: 774,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1830,7 +1878,7 @@ function HistoryPage() {
                                                             children: selectedItems.length
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 882,
+                                                            lineNumber: 907,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1844,7 +1892,7 @@ function HistoryPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 886,
+                                                                    lineNumber: 911,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1852,19 +1900,19 @@ function HistoryPage() {
                                                                     children: "เลือกดำเนินการกับรายการที่เลือกทั้งหมด"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 889,
+                                                                    lineNumber: 914,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 885,
+                                                            lineNumber: 910,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 881,
+                                                    lineNumber: 906,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1878,14 +1926,14 @@ function HistoryPage() {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 900,
+                                                                    lineNumber: 925,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 "ลบที่เลือก"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 896,
+                                                            lineNumber: 921,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1894,24 +1942,24 @@ function HistoryPage() {
                                                             children: "ยกเลิกการเลือก"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 903,
+                                                            lineNumber: 928,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 895,
+                                                    lineNumber: 920,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/history/page.tsx",
-                                            lineNumber: 880,
+                                            lineNumber: 905,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 879,
+                                        lineNumber: 904,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1930,7 +1978,7 @@ function HistoryPage() {
                                                                         children: "รายการเปรียบเทียบ"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 919,
+                                                                        lineNumber: 944,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1938,13 +1986,13 @@ function HistoryPage() {
                                                                         children: "นำเมาส์ไปชี้ที่ปุ่มความเสี่ยงเพื่อดูกราฟแบบรวดเร็ว • คลิกเพื่อเปิดกราฟแบบเต็ม"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 920,
+                                                                        lineNumber: 945,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 918,
+                                                                lineNumber: 943,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1960,7 +2008,7 @@ function HistoryPage() {
                                                                                 children: "เรียงตามวันที่"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 930,
+                                                                                lineNumber: 955,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1968,7 +2016,7 @@ function HistoryPage() {
                                                                                 children: "เรียงตามชื่อ"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 931,
+                                                                                lineNumber: 956,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1976,7 +2024,7 @@ function HistoryPage() {
                                                                                 children: "เรียงตามความเสี่ยง"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 932,
+                                                                                lineNumber: 957,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1984,13 +2032,13 @@ function HistoryPage() {
                                                                                 children: "เรียงตามการเปลี่ยนแปลง"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 933,
+                                                                                lineNumber: 958,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 925,
+                                                                        lineNumber: 950,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2000,30 +2048,30 @@ function HistoryPage() {
                                                                             className: "h-4 w-4 text-gray-700"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 940,
+                                                                            lineNumber: 965,
                                                                             columnNumber: 25
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ArrowDownIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDownIcon$3e$__["ArrowDownIcon"], {
                                                                             className: "h-4 w-4 text-gray-700"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 942,
+                                                                            lineNumber: 967,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 935,
+                                                                        lineNumber: 960,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 924,
+                                                                lineNumber: 949,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 917,
+                                                        lineNumber: 942,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2040,29 +2088,29 @@ function HistoryPage() {
                                                                         className: "h-3 w-3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 954,
+                                                                        lineNumber: 979,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 953,
+                                                                    lineNumber: 978,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 951,
+                                                            lineNumber: 976,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 949,
+                                                        lineNumber: 974,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 916,
+                                                lineNumber: 941,
                                                 columnNumber: 15
                                             }, this),
                                             loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2074,12 +2122,12 @@ function HistoryPage() {
                                                             className: "h-12 w-12 animate-spin text-blue-700"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 965,
+                                                            lineNumber: 990,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 964,
+                                                        lineNumber: 989,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2087,7 +2135,7 @@ function HistoryPage() {
                                                         children: "กำลังโหลดข้อมูล..."
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 967,
+                                                        lineNumber: 992,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2095,13 +2143,13 @@ function HistoryPage() {
                                                         children: "กรุณารอสักครู่"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 968,
+                                                        lineNumber: 993,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 963,
+                                                lineNumber: 988,
                                                 columnNumber: 17
                                             }, this),
                                             error && !loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2113,12 +2161,12 @@ function HistoryPage() {
                                                             className: "h-8 w-8"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 975,
+                                                            lineNumber: 1000,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 974,
+                                                        lineNumber: 999,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2126,7 +2174,7 @@ function HistoryPage() {
                                                         children: "ไม่สามารถโหลดข้อมูล"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 977,
+                                                        lineNumber: 1002,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2134,7 +2182,7 @@ function HistoryPage() {
                                                         children: error
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 978,
+                                                        lineNumber: 1003,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2146,7 +2194,7 @@ function HistoryPage() {
                                                                 children: "ลองอีกครั้ง"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 980,
+                                                                lineNumber: 1005,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2155,19 +2203,19 @@ function HistoryPage() {
                                                                 children: "ไปเปรียบเทียบใหม่"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 986,
+                                                                lineNumber: 1011,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 979,
+                                                        lineNumber: 1004,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 973,
+                                                lineNumber: 998,
                                                 columnNumber: 17
                                             }, this),
                                             !loading && !error && filteredAndSortedItems.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2179,12 +2227,12 @@ function HistoryPage() {
                                                             className: "h-10 w-10"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 999,
+                                                            lineNumber: 1024,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 998,
+                                                        lineNumber: 1023,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2192,7 +2240,7 @@ function HistoryPage() {
                                                         children: items.length === 0 ? "ยังไม่มีประวัติการเปรียบเทียบ" : "ไม่พบผลลัพธ์"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 1001,
+                                                        lineNumber: 1026,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2200,7 +2248,7 @@ function HistoryPage() {
                                                         children: items.length === 0 ? "เริ่มต้นด้วยการเปรียบเทียบเอกสารสองเวอร์ชันเพื่อสร้างประวัติแรกของคุณ" : "ลองเปลี่ยนคำค้นหาหรือตัวกรองเพื่อดูผลลัพธ์อื่นๆ"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 1004,
+                                                        lineNumber: 1029,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2211,20 +2259,20 @@ function HistoryPage() {
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 1013,
+                                                                lineNumber: 1038,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "เริ่มเปรียบเทียบเอกสาร"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/history/page.tsx",
-                                                        lineNumber: 1009,
+                                                        lineNumber: 1034,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 997,
+                                                lineNumber: 1022,
                                                 columnNumber: 17
                                             }, this),
                                             !loading && !error && filteredAndSortedItems.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2245,12 +2293,12 @@ function HistoryPage() {
                                                                             className: "h-4 w-4 rounded border-gray-400 text-blue-700 focus:ring-blue-500"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 1025,
+                                                                            lineNumber: 1050,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 1024,
+                                                                        lineNumber: 1049,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2258,7 +2306,7 @@ function HistoryPage() {
                                                                         children: "เอกสาร"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 1035,
+                                                                        lineNumber: 1060,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2266,7 +2314,7 @@ function HistoryPage() {
                                                                         children: "วันที่"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 1036,
+                                                                        lineNumber: 1061,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2274,7 +2322,7 @@ function HistoryPage() {
                                                                         children: "ความเสี่ยง"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 1037,
+                                                                        lineNumber: 1062,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2282,18 +2330,18 @@ function HistoryPage() {
                                                                         children: "การดำเนินการ"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 1038,
+                                                                        lineNumber: 1063,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 1023,
+                                                                lineNumber: 1048,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 1022,
+                                                            lineNumber: 1047,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2310,12 +2358,12 @@ function HistoryPage() {
                                                                                 className: "h-4 w-4 rounded border-gray-400 text-blue-700 focus:ring-blue-500"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 1049,
+                                                                                lineNumber: 1074,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 1048,
+                                                                            lineNumber: 1073,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2327,7 +2375,7 @@ function HistoryPage() {
                                                                                         children: item.document_name
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1058,
+                                                                                        lineNumber: 1083,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2341,7 +2389,7 @@ function HistoryPage() {
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                                lineNumber: 1062,
+                                                                                                lineNumber: 1087,
                                                                                                 columnNumber: 33
                                                                                             }, this),
                                                                                             item.changes_count !== undefined && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2352,13 +2400,13 @@ function HistoryPage() {
                                                                                                 ]
                                                                                             }, void 0, true, {
                                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                                lineNumber: 1066,
+                                                                                                lineNumber: 1091,
                                                                                                 columnNumber: 35
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1061,
+                                                                                        lineNumber: 1086,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2371,18 +2419,18 @@ function HistoryPage() {
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1071,
+                                                                                        lineNumber: 1096,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 1057,
+                                                                                lineNumber: 1082,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 1056,
+                                                                            lineNumber: 1081,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2392,12 +2440,12 @@ function HistoryPage() {
                                                                                 children: formatInBangkokTimezone(item.created_at)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 1077,
+                                                                                lineNumber: 1102,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 1076,
+                                                                            lineNumber: 1101,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2407,12 +2455,12 @@ function HistoryPage() {
                                                                                 item: item
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 1082,
+                                                                                lineNumber: 1107,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 1081,
+                                                                            lineNumber: 1106,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2428,12 +2476,12 @@ function HistoryPage() {
                                                                                             className: "h-5 w-5"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                                            lineNumber: 1091,
+                                                                                            lineNumber: 1116,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1086,
+                                                                                        lineNumber: 1111,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2444,12 +2492,12 @@ function HistoryPage() {
                                                                                             className: "h-5 w-5"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                                            lineNumber: 1098,
+                                                                                            lineNumber: 1123,
                                                                                             columnNumber: 33
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1093,
+                                                                                        lineNumber: 1118,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2461,18 +2509,18 @@ function HistoryPage() {
                                                                                             className: "h-5 w-5 animate-spin"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                                            lineNumber: 1107,
+                                                                                            lineNumber: 1132,
                                                                                             columnNumber: 35
                                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$ArrowRightCircleIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRightCircleIcon$3e$__["ArrowRightCircleIcon"], {
                                                                                             className: "h-5 w-5"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                                            lineNumber: 1109,
+                                                                                            lineNumber: 1134,
                                                                                             columnNumber: 35
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1100,
+                                                                                        lineNumber: 1125,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2484,51 +2532,51 @@ function HistoryPage() {
                                                                                             className: "h-5 w-5 animate-spin"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                                            lineNumber: 1119,
+                                                                                            lineNumber: 1144,
                                                                                             columnNumber: 35
                                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$heroicons$2f$react$2f$24$2f$outline$2f$esm$2f$TrashIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TrashIcon$3e$__["TrashIcon"], {
                                                                                             className: "h-5 w-5"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                                            lineNumber: 1121,
+                                                                                            lineNumber: 1146,
                                                                                             columnNumber: 35
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                                        lineNumber: 1112,
+                                                                                        lineNumber: 1137,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                                lineNumber: 1085,
+                                                                                lineNumber: 1110,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/history/page.tsx",
-                                                                            lineNumber: 1084,
+                                                                            lineNumber: 1109,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, item.id, true, {
                                                                     fileName: "[project]/app/history/page.tsx",
-                                                                    lineNumber: 1043,
+                                                                    lineNumber: 1068,
                                                                     columnNumber: 25
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 1041,
+                                                            lineNumber: 1066,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 1021,
+                                                    lineNumber: 1046,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 1020,
+                                                lineNumber: 1045,
                                                 columnNumber: 17
                                             }, this),
                                             !loading && !error && filteredAndSortedItems.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2548,7 +2596,7 @@ function HistoryPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 1137,
+                                                            lineNumber: 1162,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2562,7 +2610,7 @@ function HistoryPage() {
                                                                         children: sortField === "date" ? "วันที่" : sortField === "name" ? "ชื่อ" : sortField === "risk" ? "ความเสี่ยง" : "การเปลี่ยนแปลง"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/history/page.tsx",
-                                                                        lineNumber: 1143,
+                                                                        lineNumber: 1168,
                                                                         columnNumber: 34
                                                                     }, this),
                                                                     " (",
@@ -2571,53 +2619,53 @@ function HistoryPage() {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/history/page.tsx",
-                                                                lineNumber: 1142,
+                                                                lineNumber: 1167,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/history/page.tsx",
-                                                            lineNumber: 1141,
+                                                            lineNumber: 1166,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/history/page.tsx",
-                                                    lineNumber: 1136,
+                                                    lineNumber: 1161,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/history/page.tsx",
-                                                lineNumber: 1135,
+                                                lineNumber: 1160,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/history/page.tsx",
-                                        lineNumber: 915,
+                                        lineNumber: 940,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/history/page.tsx",
-                                lineNumber: 876,
+                                lineNumber: 901,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/history/page.tsx",
-                        lineNumber: 747,
+                        lineNumber: 772,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/history/page.tsx",
-                lineNumber: 678,
+                lineNumber: 703,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/history/page.tsx",
-        lineNumber: 674,
+        lineNumber: 699,
         columnNumber: 5
     }, this);
 }
